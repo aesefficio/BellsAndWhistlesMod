@@ -1,6 +1,8 @@
 package net.aaw.bellsandwhistles;
 
 import com.mojang.logging.LogUtils;
+import net.aaw.bellsandwhistles.item.ModCreativeModeTabs;
+import net.aaw.bellsandwhistles.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -37,6 +39,9 @@ public class BellsAndWhistles {
 
     public BellsAndWhistles() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

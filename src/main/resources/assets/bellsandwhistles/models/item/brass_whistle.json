@@ -1,0 +1,86 @@
+{
+  "credit": "Made with Blockbench",
+  "textures": {
+    "0": "bellsandwhistles:item/brass_whistle_3d",
+    "particle": "bellsandwhistles:item/brass_whistle_3d"
+  },
+  "elements": [
+    {
+      "name": "shaft",
+      "from": [6.01, 10.069, 6.23],
+      "to": [8.99, 12.069, 12.23],
+      "rotation": {"angle": 0, "axis": "y", "origin": [16, 8, 1]},
+      "faces": {
+        "north": {"uv": [6, 0, 9, 2], "texture": "#0"},
+        "east": {"uv": [0, 0, 6, 2], "texture": "#0"},
+        "south": {"uv": [6, 0, 9, 2], "texture": "#0"},
+        "west": {"uv": [0, 2, 6, 0], "rotation": 180, "texture": "#0"},
+        "up": {"uv": [9, 3, 15, 6], "rotation": 90, "texture": "#0"},
+        "down": {"uv": [9, 3, 15, 6], "rotation": 270, "texture": "#0"}
+      }
+    },
+    {
+      "name": "body",
+      "from": [6, 7.4588, 5.30656],
+      "to": [9, 11.4588, 9.30656],
+      "rotation": {"angle": 22.5, "axis": "x", "origin": [7.5, 9.4588, 7.30656]},
+      "faces": {
+        "north": {"uv": [0, 9, 4, 12], "rotation": 270, "texture": "#0"},
+        "east": {"uv": [0, 2, 4, 6], "rotation": 270, "texture": "#0"},
+        "south": {"uv": [0, 9, 4, 12], "rotation": 270, "texture": "#0"},
+        "west": {"uv": [0, 6, 4, 2], "rotation": 270, "texture": "#0"},
+        "up": {"uv": [0, 6, 4, 9], "rotation": 270, "texture": "#0"},
+        "down": {"uv": [0, 6, 4, 9], "rotation": 90, "texture": "#0"}
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [-6, -27, -3],
+      "translation": [0.25, -1, 0.75],
+      "scale": [0.75, 0.75, 0.75]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [-6, -27, -3],
+      "translation": [-0.25, -1, 0.75],
+      "scale": [0.75, 0.75, 0.75]
+    },
+    "firstperson_righthand": {
+      "rotation": [12.54, -74.48, 13.85],
+      "translation": [2.25, 2.25, 0.25],
+      "scale": [0.8, 0.8, 0.8]
+    },
+    "firstperson_lefthand": {
+      "rotation": [12.54, -74.48, 13.85],
+      "translation": [2.25, 2.25, 0],
+      "scale": [0.8, 0.8, 0.8]
+    },
+    "ground": {
+      "translation": [0, -2, 0],
+      "scale": [1.5, 1.5, 1.5]
+    },
+    "gui": {
+      "rotation": [-138.64, 61.99, 159.69],
+      "translation": [-1, -4, 0],
+      "scale": [2, 2, 2]
+    },
+    "head": {
+      "rotation": [100.25, 0, -180],
+      "translation": [-1.25, 1.25, 1.5],
+      "scale": [2.5, 2.5, 2.5]
+    },
+    "fixed": {
+      "rotation": [0, 90, 0],
+      "translation": [-1.25, -3, -0.5],
+      "scale": [2, 2, 2]
+    }
+  },
+  "groups": [
+    {
+      "name": "whistle",
+      "origin": [8, 8, 8],
+      "color": 0,
+      "children": [0, 1]
+    }
+  ]
+}

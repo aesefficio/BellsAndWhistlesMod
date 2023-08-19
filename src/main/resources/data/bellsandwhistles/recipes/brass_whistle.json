@@ -1,0 +1,14 @@
+{
+  "type":"crafting_shaped",
+  "category": "tools",
+  "pattern":["#X"],
+  "key":{
+    "#":{
+      "item":"create:brass_ingot"
+    },
+    "X":{
+      "item":"create:brass_nugget"
+    }
+  },
+  "result":{"item":"bellsandwhistles:brass_whistle"}
+}
