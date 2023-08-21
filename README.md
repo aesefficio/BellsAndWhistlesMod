@@ -1,43 +1,13 @@
-
-Installation information
-=======
-
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions at [github](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
-
-Once you have your clone, you can initialize your copy.
-
-Setup Process:
---------
-
-Step 1: Open your command-line and browse to the folder where you extracted cloned your copy of this repository to.
-
-Step 2: You're left with a choice.
-If you prefer to use Eclipse:
-1. Run the following command: `gradlew genEclipseRuns` (`./gradlew genEclipseRuns` if you are on Mac/Linux)
-2. Open Eclipse, Import > Existing Gradle Project > Select Folder 
-   or run `gradlew eclipse` to generate the project.
-
-If you prefer to use IntelliJ:
-1. Open IDEA, and import project.
-2. Select your build.gradle file and have it import.
-3. Run the following command: `gradlew genIntellijRuns` (`./gradlew genIntellijRuns` if you are on Mac/Linux)
-4. Refresh the Gradle Project in IDEA if required.
-
-If at any point you are missing libraries in your IDE, or you've run into problems you can 
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
-
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license, if you do not agree with it you can change your mapping names to other crowdsourced names in your 
-build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+<p align="center"><img src="https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/12642353-20c9-45b4-af6b-0a875bb709bc" alt="Bells and Whistles Logo" width="140"></p>
+<h1 align="center">Create: Bells and Whistles</h1>
+<!--<div align="center">
+   <a href="https://legacy.curseforge.com/minecraft/mc-mods/bellsandwhistles"><img src="https://cf.way2muchnoise.eu/905040.svg" alt="curseforge"></a>
+   <a href="https://modrinth.com/mod/bellsandwhistles"><img src="https://img.shields.io/modrinth/dt/gJ5afkVv?logo=modrinth&label=&suffix=%20&style=flat&color=242629&labelColor=5ca424&logoColor=1c1c1c" alt="modrinth"></a><br>
+   <img src="https://wakatime.com/badge/user/d3e71387-5f47-4f39-81e8-9b14b9457c4b/project/af4286ec-a411-416b-bfdf-cffd14a99214.svg" alt="wakatime">
+   <img src="https://img.shields.io/github/license/alexandsr/BellsAndWhistlesMod" alt="license">
+</div> -->
+<div align="center">
+Create: Bells and Whistles is an addon for Create that aims to improve the player experience,<br>chiefly by adding decorative and utility features that make for a more immersive game.<br><br>
+If that seems interesting, please give it a try!<br>
+<!-- <h3>The current list of features includes:</h3> -->
+</div>
