@@ -48,3 +48,13 @@ Create: Bells and Whistles is an addon for Create that aims to improve the playe
 <ul>
    <li>Bell Items</li>
 </ul>
+
+---
+
+<div align="center">
+   
+   <h3>Find out more about Bells and Whistles on <a href="https://modrinth.com/mod/bellsandwhistles"><img src=".assets/modrinth.webp" width="15"> Modrinth</a> or <a href="https://legacy.curseforge.com/minecraft/mc-mods/bellsandwhistles"><img src=".assets/curseforge.svg" width="15"> CurseForge</a>
+<br><br>
+   
+Read the Wiki <a href="https://github.com/alexandsr/BellsAndWhistlesMod/wiki">here</a> and Report Issues <a href="https://github.com/alexandsr/BellsAndWhistlesMod/issues">here</a></h3>
+</div>
