@@ -4,6 +4,8 @@ import com.mojang.logging.LogUtils;
 import net.aaw.bellsandwhistles.block.ModBlocks;
 import net.aaw.bellsandwhistles.item.ModCreativeModeTabs;
 import net.aaw.bellsandwhistles.item.ModItems;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -62,6 +64,18 @@ public class BellsAndWhistles {
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
+
+    }
+
+    private void clientSetup(final FMLClientSetupEvent event) {
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.ANDESITE_GRAB_RAILS.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.ANDESITE_BOGIE_STEPS.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BRASS_GRAB_RAILS.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BRASS_BOGIE_STEPS.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.COPPER_GRAB_RAILS.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.COPPER_BOGIE_STEPS.get(), RenderType.cutout());
+
+
 
     }
 

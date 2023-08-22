@@ -1,0 +1,138 @@
+{
+  "credit": "Made with Blockbench",
+  "texture_size": [32, 32],
+  "textures": {
+    "1": "bellsandwhistles:item/wood_whistle_3d",
+    "particle": "bellsandwhistles:item/wood_whistle_3d"
+  },
+  "elements": [
+    {
+      "name": "shaft",
+      "from": [6, 10, 6.23],
+      "to": [10, 14, 14.23],
+      "rotation": {"angle": 0, "axis": "y", "origin": [16, 8, 1]},
+      "faces": {
+        "north": {"uv": [0, 2, 2, 4], "rotation": 180, "texture": "#1"},
+        "east": {"uv": [0, 0, 4, 2], "texture": "#1"},
+        "south": {"uv": [2, 2, 4, 4], "texture": "#1"},
+        "west": {"uv": [0, 0, 4, 2], "texture": "#1"},
+        "up": {"uv": [4, 2, 0, 0], "rotation": 90, "texture": "#1"},
+        "down": {"uv": [0, 2, 4, 0], "rotation": 90, "texture": "#1"}
+      }
+    },
+    {
+      "name": "mouthpiece",
+      "from": [6, 10, 2.23],
+      "to": [10, 14, 5.23],
+      "rotation": {"angle": 0, "axis": "y", "origin": [16, 8, 1]},
+      "faces": {
+        "north": {"uv": [0, 2, 2, 4], "texture": "#1"},
+        "east": {"uv": [4, 0, 5.5, 2], "texture": "#1"},
+        "south": {"uv": [2, 2, 4, 4], "texture": "#1"},
+        "west": {"uv": [4, 0, 5.5, 2], "rotation": 180, "texture": "#1"},
+        "up": {"uv": [5.5, 2, 4, 0], "rotation": 90, "texture": "#1"},
+        "down": {"uv": [4, 2, 5.5, 0], "rotation": 270, "texture": "#1"}
+      }
+    },
+    {
+      "name": "vertical",
+      "from": [7.5, 10, 5.23],
+      "to": [8.5, 14, 6.23],
+      "rotation": {"angle": 0, "axis": "z", "origin": [8.5, 11.5, 5.73]},
+      "faces": {
+        "north": {"uv": [0, 2, 0.5, 4], "texture": "#1"},
+        "east": {"uv": [5, 0, 5.5, 2], "texture": "#1"},
+        "south": {"uv": [0, 0, 0.5, 2], "texture": "#1"},
+        "west": {"uv": [3.5, 0, 4, 2], "texture": "#1"},
+        "up": {"uv": [4, 4, 3.5, 3.5], "texture": "#1"},
+        "down": {"uv": [4, 2.5, 3.5, 3], "texture": "#1"}
+      }
+    },
+    {
+      "name": "horizontal",
+      "from": [6, 11.5, 5.23],
+      "to": [10, 12.5, 6.23],
+      "rotation": {"angle": 0, "axis": "y", "origin": [8.5, 11.5, 5.73]},
+      "faces": {
+        "north": {"uv": [0, 1.5, 2, 2], "texture": "#1"},
+        "east": {"uv": [4.5, 1.5, 5, 2], "texture": "#1"},
+        "south": {"uv": [2, 0, 4, 0.5], "texture": "#1"},
+        "west": {"uv": [3, 1.5, 3.5, 2], "texture": "#1"},
+        "up": {"uv": [2, 0.5, 0, 0], "texture": "#1"},
+        "down": {"uv": [5.5, 0, 3.5, 0.5], "texture": "#1"}
+      }
+    },
+    {
+      "name": "diamond",
+      "from": [6.6, 10.6, 5.23],
+      "to": [9.4, 13.4, 6.23],
+      "rotation": {"angle": 45, "axis": "z", "origin": [8, 12, 5.73]},
+      "faces": {
+        "north": {"uv": [0, 0, 1.5, 1.5], "texture": "#1"},
+        "east": {"uv": [3.5, 0, 4, 1.5], "texture": "#1"},
+        "south": {"uv": [0, 0, 1.5, 1.5], "texture": "#1"},
+        "west": {"uv": [3.5, 0, 4, 1.5], "texture": "#1"},
+        "up": {"uv": [5.5, 0.5, 4, 0], "texture": "#1"},
+        "down": {"uv": [5.5, 0, 4, 0.5], "texture": "#1"}
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [151.37, 36.96, 178.23],
+      "translation": [-1, -2.25, 0.75],
+      "scale": [0.7, 0.7, 0.7]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [151.37, 36.96, 178.23],
+      "translation": [-1, -2.25, 0.75],
+      "scale": [0.7, 0.7, 0.7]
+    },
+    "firstperson_righthand": {
+      "rotation": [20, 113, 42],
+      "translation": [1.5, 1.5, -4.25],
+      "scale": [0.8, 0.8, 0.8]
+    },
+    "firstperson_lefthand": {
+      "rotation": [20, 113, 42],
+      "translation": [1.5, 1.5, -4.25],
+      "scale": [0.8, 0.8, 0.8]
+    },
+    "ground": {
+      "translation": [0, -4.25, -1],
+      "scale": [1.3, 1.3, 1.3]
+    },
+    "gui": {
+      "rotation": [24, 114, 0],
+      "translation": [-0.25, -5.25, 0],
+      "scale": [1.23, 1.23, 1.23]
+    },
+    "head": {
+      "rotation": [-171, 0, -180],
+      "translation": [0, -14.75, -12.75],
+      "scale": [4, 4, 4]
+    },
+    "fixed": {
+      "rotation": [-90, -45, 90],
+      "translation": [4.75, 4, -0.5],
+      "scale": [1.6, 1.6, 1.6]
+    }
+  },
+  "groups": [
+    {
+      "name": "whistle",
+      "origin": [8, 8, 8],
+      "color": 0,
+      "children": [
+        0,
+        1,
+        {
+          "name": "middle_section",
+          "origin": [7.5, 11.5, 5.73],
+          "color": 0,
+          "children": [2, 3, 4]
+        }
+      ]
+    }
+  ]
+}
