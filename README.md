@@ -8,8 +8,39 @@
 </div> </h1>
 <div align="center">
 Create: Bells and Whistles is an addon for Create that aims to improve the player experience<br>through various useful decorative and utility features.<br><br>
+   </div>
+
 <h3>Current list of features:</h3> 
-<list>
-   Wooden Whistle
-   Brass Whistle
-</list></div>
+<ul>
+  <li>Wooden Whistle</li>
+   <li>Brass Whistle</li>
+   <li>Train Pilots
+      <ul>
+         <li>Metal Train Pilot</li>
+         <li>Andesite Alloy Train Pilot</li>
+         <li>Brass Train Pilot</li>
+         <li>Copper Train Pilot</li>
+         <li>Polished Crimsite Train Pilot</li>
+         <li>Polished Veridium Train Pilot</li>
+         <li>Polished Asurine Train Pilot</li>
+         <li>Polished Limestone Train Pilot</li>
+      </ul>
+   </li>
+   <li>Andesite, Brass and Copper Grab Bar Blocks
+     <ul>
+      <li>Behave like ladders</li>
+      <li>Work on trains</li>
+      <li>Can be crafted or made in a stonecutter</li>
+   </ul>
+   </li>
+  <li>Andesite, Brass and Copper Bogie Step Blocks
+  <ul>
+      <li>Extend 1 block below where they are placed.</li>
+      <li>Behave like ladders</li>
+      <li>Work on trains</li>
+      <li>Can be crafted or made in a stonecutter</li>
+   </ul> 
+  </li>
+</ul> 
+<h3>Planned features:</h3>
+
