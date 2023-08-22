@@ -23,6 +23,7 @@ Create: Bells and Whistles is an addon for Create that aims to improve the playe
          <li>Polished Crimsite Train Pilot</li>
          <li>Polished Veridium Train Pilot</li>
          <li>Polished Asurine Train Pilot</li>
+         <li>Polished Ochrum Train Pilot</li>
          <li>Polished Limestone Train Pilot</li>
       </ul>
    </li>
