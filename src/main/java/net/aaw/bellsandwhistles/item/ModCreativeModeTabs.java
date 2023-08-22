@@ -1,6 +1,7 @@
 package net.aaw.bellsandwhistles.item;
 
 import net.aaw.bellsandwhistles.BellsAndWhistles;
+import net.aaw.bellsandwhistles.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -18,7 +19,9 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BRASS_WHISTLE.get()))
                     .title(Component.translatable("creativetab.bells_and_whistles_tab"))
                     .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModItems.WOODEN_WHISTLE.get());
                         pOutput.accept(ModItems.BRASS_WHISTLE.get());
+                        pOutput.accept(ModBlocks.METAL_PILOT.get());
                     })
                     .build());
 

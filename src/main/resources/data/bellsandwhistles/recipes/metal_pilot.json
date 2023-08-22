@@ -1,0 +1,21 @@
+{
+  "type":"crafting_shaped",
+  "category": "tools",
+  "pattern": [
+    "I#I",
+    "#I#",
+    "XXX"
+  ],
+  "key":{
+    "#":{
+      "item":"create:andesite_alloy"
+    },
+    "X":{
+      "item":"create:iron_sheet"
+    },
+    "I":{
+      "item":"iron_nugget"
+    }
+  },
+  "result":{"item":"bellsandwhistles:metal_pilot"}
+}

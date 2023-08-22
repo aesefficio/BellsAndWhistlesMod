@@ -1,6 +1,7 @@
 package net.aaw.bellsandwhistles;
 
 import com.mojang.logging.LogUtils;
+import net.aaw.bellsandwhistles.block.ModBlocks;
 import net.aaw.bellsandwhistles.item.ModCreativeModeTabs;
 import net.aaw.bellsandwhistles.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -42,7 +43,7 @@ public class BellsAndWhistles {
 
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
-
+        ModBlocks.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);

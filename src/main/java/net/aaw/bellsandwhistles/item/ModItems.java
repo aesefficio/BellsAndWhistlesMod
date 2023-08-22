@@ -14,6 +14,9 @@ public class ModItems {
         public static final RegistryObject<Item> BRASS_WHISTLE = ITEMS.register("brass_whistle",
             () -> new Item(new Item.Properties().stacksTo(1)));
 
+        public static final RegistryObject<Item> WOODEN_WHISTLE = ITEMS.register("wooden_whistle",
+            () -> new Item(new Item.Properties().stacksTo(1)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
