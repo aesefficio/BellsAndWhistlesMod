@@ -22,6 +22,10 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.WOODEN_WHISTLE.get());
                         pOutput.accept(ModItems.BRASS_WHISTLE.get());
                         pOutput.accept(ModBlocks.METAL_PILOT.get());
+                        pOutput.accept(ModBlocks.ANDESITE_GRAB_RAILS.get());
+                        pOutput.accept(ModBlocks.BRASS_GRAB_RAILS.get());
+                        pOutput.accept(ModBlocks.COPPER_GRAB_RAILS.get());
+
                     })
                     .build());
 
