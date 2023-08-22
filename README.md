@@ -12,8 +12,6 @@ Create: Bells and Whistles is an addon for Create that aims to improve the playe
 
 <h3>Current list of features:</h3> 
 <ul>
-  <li>Wooden Whistle</li>
-   <li>Brass Whistle</li>
    <li>Train Pilots
       <ul>
          <li>Metal Train Pilot</li>
@@ -42,6 +40,11 @@ Create: Bells and Whistles is an addon for Create that aims to improve the playe
       <li>Can be crafted or made in a stonecutter</li>
    </ul> 
   </li>
+     <li>Wooden Whistle</li>
+   <li>Brass Whistle</li>
+
 </ul> 
 <h3>Planned features:</h3>
-
+<ul>
+   <li>Bell Items</li>
+</ul>
