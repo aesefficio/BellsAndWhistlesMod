@@ -2,5 +2,14 @@
   "item.bellsandwhistles.brass_whistle": "Brass Whistle",
   "item.bellsandwhistles.wooden_whistle": "Wooden Whistle",
   "creativetab.bells_and_whistles_tab": "Bells and Whistles",
-  "block.bellsandwhistles.metal_pilot": "Metal Train Pilot"
+  "block.bellsandwhistles.metal_pilot": "Metal Train Pilot",
+
+  "block.bellsandwhistles.andesite_grab_rails": "Andesite Grab Rails",
+  "block.bellsandwhistles.brass_grab_rails": "Brass Grab Rails",
+  "block.bellsandwhistles.copper_grab_rails": "Copper Grab Rails",
+
+  "block.bellsandwhistles.andesite_bogie_steps": "Andesite Bogie Steps",
+  "block.bellsandwhistles.brass_bogie_steps": "Brass Bogie Steps",
+  "block.bellsandwhistles.copper_bogie_steps": "Copper Bogie Steps"
+
 }

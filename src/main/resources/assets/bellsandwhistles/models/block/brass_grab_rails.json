@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "create:ladder_brass_hoop",
-		"1": "bellsandwhistles:block/hand_rails_brass",
-		"particle": "bellsandwhistles:block/hand_rails_brass"
+		"0": "bellsandwhistles:block/metal_rails/ladder_brass_hoop",
+		"1": "bellsandwhistles:block/metal_rails/hand_rails_brass",
+		"particle": "bellsandwhistles:block/metal_rails/hand_rails_brass"
 	},
 	"elements": [
 		{

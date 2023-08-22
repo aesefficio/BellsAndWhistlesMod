@@ -1,6 +1,8 @@
 package net.aaw.bellsandwhistles.block;
 
 import static com.simibubi.create.Create.REGISTRATE;
+
+import com.simibubi.create.AllBlocks;
 import com.simibubi.create.AllItems;
 import com.simibubi.create.AllTags;
 import com.simibubi.create.content.contraptions.actors.seat.SeatBlock;
@@ -9,11 +11,15 @@ import com.simibubi.create.content.contraptions.actors.seat.SeatMovementBehaviou
 import com.simibubi.create.content.decoration.MetalLadderBlock;
 import com.simibubi.create.foundation.block.DyedBlockList;
 import com.simibubi.create.foundation.data.BuilderTransformers;
+import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.simibubi.create.foundation.data.SharedProperties;
+import com.simibubi.create.foundation.utility.CreateRegistry;
+import com.tterrag.registrate.Registrate;
 import com.tterrag.registrate.builders.BlockBuilder;
 import com.tterrag.registrate.util.DataIngredient;
 import com.tterrag.registrate.util.entry.BlockEntry;
 import net.aaw.bellsandwhistles.BellsAndWhistles;
+import net.aaw.bellsandwhistles.block.custom.MetalGrabRailsBlock;
 import net.aaw.bellsandwhistles.block.custom.MetalPilotBlock;
 import net.aaw.bellsandwhistles.block.custom.StoolSeatBlock;
 import net.aaw.bellsandwhistles.item.ModItems;
@@ -22,6 +28,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.LadderBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.common.util.NonNullFunction;
@@ -37,27 +44,21 @@ public class ModBlocks {
     }
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, BellsAndWhistles.MOD_ID);
-
     public static final RegistryObject<Block> METAL_PILOT = registerBlock("metal_pilot",
-            () -> new MetalPilotBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+            () -> new MetalPilotBlock(BlockBehaviour.Properties.copy(Blocks.IRON_TRAPDOOR)));
+    public static final RegistryObject<Block> ANDESITE_GRAB_RAILS = registerBlock("andesite_grab_rails",
+            () -> new MetalGrabRailsBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BARS)));
+    public static final RegistryObject<Block> BRASS_GRAB_RAILS = registerBlock("brass_grab_rails",
+            () -> new MetalGrabRailsBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BARS)));
+    public static final RegistryObject<Block> COPPER_GRAB_RAILS = registerBlock("copper_grab_rails",
+            () -> new MetalGrabRailsBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BARS)));
 
-    public static final BlockEntry<MetalLadderBlock> ANDESITE_GRAB_RAILS =
-        REGISTRATE.block("andesite_grab_rails", MetalLadderBlock::new)
-                    .transform(BuilderTransformers.ladder("andesite", () -> DataIngredient.items(AllItems.ANDESITE_ALLOY.get()),
-                            MapColor.STONE))
-                    .register();
-
-    public static final BlockEntry<MetalLadderBlock> BRASS_GRAB_RAILS =
-            REGISTRATE.block("brass_grab_rails", MetalLadderBlock::new)
-                    .transform(BuilderTransformers.ladder("brass",
-                            () -> DataIngredient.tag(AllTags.forgeItemTag("ingots/brass")), MapColor.TERRACOTTA_YELLOW))
-                    .register();
-
-    public static final BlockEntry<MetalLadderBlock> COPPER_GRAB_RAILS =
-            REGISTRATE.block("copper_grab_rails", MetalLadderBlock::new)
-                    .transform(BuilderTransformers.ladder("copper",
-                            () -> DataIngredient.tag(AllTags.forgeItemTag("ingots/copper")), MapColor.COLOR_ORANGE))
-                    .register();
+    public static final RegistryObject<Block> ANDESITE_BOGIE_STEPS = registerBlock("andesite_bogie_steps",
+            () -> new MetalGrabRailsBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BARS)));
+    public static final RegistryObject<Block> BRASS_BOGIE_STEPS = registerBlock("brass_bogie_steps",
+            () -> new MetalGrabRailsBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BARS)));
+    public static final RegistryObject<Block> COPPER_BOGIE_STEPS = registerBlock("copper_bogie_steps",
+            () -> new MetalGrabRailsBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BARS)));
 
 
     private static <T extends Block>RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block) {

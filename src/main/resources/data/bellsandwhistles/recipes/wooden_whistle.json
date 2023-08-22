@@ -1,0 +1,14 @@
+{
+  "type":"crafting_shaped",
+  "category": "tools",
+  "pattern":["#X"],
+  "key":{
+    "#": {
+      "tag": "minecraft:logs"
+    },
+    "#": {
+      "tag": "minecraft:wooden_buttons"
+    }
+  },
+  "result":{"item":"bellsandwhistles:brass_whistle"}
+}
