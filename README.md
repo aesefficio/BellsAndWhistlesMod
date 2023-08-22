@@ -53,7 +53,7 @@ Create: Bells and Whistles is an addon for Create that aims to improve<br>the pl
 
 <div align="center">
    
-   <h3>Find out more about Bells and Whistles on <a href="https://modrinth.com/mod/bellsandwhistles"><span style="margin-top:6px"><img src="https://raw.githubusercontent.com/alexandsr/BellsAndWhistlesMod/main/.assets/modrinth.webp" width="16"></span> Modrinth</a> or <a href="https://legacy.curseforge.com/minecraft/mc-mods/bellsandwhistles"><span style="padding:5px"><img src="https://raw.githubusercontent.com/alexandsr/BellsAndWhistlesMod/9f44e0cb812b00da5d1c60eb691efb9f69761cb3/.assets/curseforge.svg" width="18"></span> CurseForge</a>
+   <h3>Find Bells and Whistles on <a href="https://modrinth.com/mod/bellsandwhistles"><span style="margin-top:6px"><img src="https://raw.githubusercontent.com/alexandsr/BellsAndWhistlesMod/main/.assets/modrinth.webp" width="16"></span> Modrinth</a> or <a href="https://legacy.curseforge.com/minecraft/mc-mods/bellsandwhistles"><span style="padding:5px"><img src="https://raw.githubusercontent.com/alexandsr/BellsAndWhistlesMod/9f44e0cb812b00da5d1c60eb691efb9f69761cb3/.assets/curseforge.svg" width="18"></span> CurseForge</a>
 <br><br>
    
 Read the Wiki <a href="https://github.com/alexandsr/BellsAndWhistlesMod/wiki">here</a> and Report Issues <a href="https://github.com/alexandsr/BellsAndWhistlesMod/issues">here</a></h3>
