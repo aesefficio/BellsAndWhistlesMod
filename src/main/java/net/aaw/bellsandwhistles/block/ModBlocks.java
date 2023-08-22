@@ -29,6 +29,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.LadderBlock;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.common.util.NonNullFunction;
@@ -47,18 +48,18 @@ public class ModBlocks {
     public static final RegistryObject<Block> METAL_PILOT = registerBlock("metal_pilot",
             () -> new MetalPilotBlock(BlockBehaviour.Properties.copy(Blocks.IRON_TRAPDOOR)));
     public static final RegistryObject<Block> ANDESITE_GRAB_RAILS = registerBlock("andesite_grab_rails",
-            () -> new MetalLadderBlock(BlockBehaviour.Properties.copy(Blocks.RAIL)));
+            () -> new MetalGrabRailsBlock(BlockBehaviour.Properties.copy(Blocks.LADDER).sound(SoundType.METAL).noOcclusion()));
     public static final RegistryObject<Block> BRASS_GRAB_RAILS = registerBlock("brass_grab_rails",
-            () -> new MetalLadderBlock(BlockBehaviour.Properties.copy(Blocks.RAIL)));
+            () -> new MetalGrabRailsBlock(BlockBehaviour.Properties.copy(Blocks.LADDER).sound(SoundType.METAL).noOcclusion()));
     public static final RegistryObject<Block> COPPER_GRAB_RAILS = registerBlock("copper_grab_rails",
-            () -> new MetalLadderBlock(BlockBehaviour.Properties.copy(Blocks.RAIL)));
+            () -> new MetalGrabRailsBlock(BlockBehaviour.Properties.copy(Blocks.LADDER).sound(SoundType.METAL).noOcclusion()));
 
     public static final RegistryObject<Block> ANDESITE_BOGIE_STEPS = registerBlock("andesite_bogie_steps",
-            () -> new MetalLadderBlock(BlockBehaviour.Properties.copy(Blocks.RAIL)));
+            () -> new MetalGrabRailsBlock(BlockBehaviour.Properties.copy(Blocks.LADDER).sound(SoundType.METAL).noOcclusion()));
     public static final RegistryObject<Block> BRASS_BOGIE_STEPS = registerBlock("brass_bogie_steps",
-            () -> new MetalLadderBlock(BlockBehaviour.Properties.copy(Blocks.RAIL)));
+            () -> new MetalGrabRailsBlock(BlockBehaviour.Properties.copy(Blocks.LADDER).sound(SoundType.METAL).noOcclusion()));
     public static final RegistryObject<Block> COPPER_BOGIE_STEPS = registerBlock("copper_bogie_steps",
-            () -> new MetalLadderBlock(BlockBehaviour.Properties.copy(Blocks.RAIL)));
+            () -> new MetalGrabRailsBlock(BlockBehaviour.Properties.copy(Blocks.LADDER).sound(SoundType.METAL).noOcclusion()));
 
 
     private static <T extends Block>RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block) {

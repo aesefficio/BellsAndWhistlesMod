@@ -47,7 +47,7 @@ public class BellsAndWhistles {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
-
+        modEventBus.addListener(this::clientSetup);
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
     }
@@ -67,6 +67,7 @@ public class BellsAndWhistles {
 
     }
 
+
     private void clientSetup(final FMLClientSetupEvent event) {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.ANDESITE_GRAB_RAILS.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.ANDESITE_BOGIE_STEPS.get(), RenderType.cutout());
@@ -74,9 +75,7 @@ public class BellsAndWhistles {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.BRASS_BOGIE_STEPS.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.COPPER_GRAB_RAILS.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.COPPER_BOGIE_STEPS.get(), RenderType.cutout());
-
-
-
+        System.out.println("RENDER LAYERS SET");
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent

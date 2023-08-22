@@ -4,10 +4,10 @@
   "pattern":["#X"],
   "key":{
     "#":{
-      "item":"create:brass_ingot"
+      "tag":"forge:ingots/brass"
     },
     "X":{
-      "item":"create:brass_nugget"
+      "tag":"forge:nuggets/brass"
     }
   },
   "result":{"item":"bellsandwhistles:brass_whistle"}

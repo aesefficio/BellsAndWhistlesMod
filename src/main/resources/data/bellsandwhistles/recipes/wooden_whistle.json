@@ -6,9 +6,9 @@
     "#": {
       "tag": "minecraft:logs"
     },
-    "#": {
+    "X": {
       "tag": "minecraft:wooden_buttons"
     }
   },
-  "result":{"item":"bellsandwhistles:brass_whistle"}
+  "result":{"item":"bellsandwhistles:wooden_whistle"}
 }
