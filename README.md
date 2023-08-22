@@ -7,7 +7,7 @@
    <img src="https://img.shields.io/github/license/alexandsr/BellsAndWhistlesMod" alt="license">
 </div> </h1>
 <div align="center">
-Create: Bells and Whistles is an addon for Create that aims to improve the player experience<br>through the addition of various useful decorative and utility features.<br><br>
+Create: Bells and Whistles is an addon for Create that aims to improve<br>the player experience through the addition of various<br>useful decorative and utility features.<br><br>
    </div>
 
 <h3>Current list of features:</h3> 
