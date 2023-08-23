@@ -62,3 +62,4 @@ Create: Bells and Whistles is an addon for Create that aims to improve<br>the pl
    
 Read the Wiki <a href="https://github.com/alexandsr/BellsAndWhistlesMod/wiki">here</a> and Report Issues <a href="https://github.com/alexandsr/BellsAndWhistlesMod/issues">here</a></h3>
 </div>
+<!--https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/1524d3e9-95b0-4b47-9c14-ce24ca0bc324-->
