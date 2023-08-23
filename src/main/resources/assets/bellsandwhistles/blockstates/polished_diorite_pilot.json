@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "bellsandwhistles:block/pilots/polished_diorite_pilot",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "bellsandwhistles:block/pilots/polished_diorite_pilot"
+    },
+    "facing=south": {
+      "model": "bellsandwhistles:block/pilots/polished_diorite_pilot",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "bellsandwhistles:block/pilots/polished_diorite_pilot",
+      "y": 270
+    }
+  }
+}
