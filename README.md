@@ -42,7 +42,11 @@ Create: Bells and Whistles is an addon for Create that aims to improve<br>the pl
   </li>
      <li>Wooden Whistle</li>
    <li>Brass Whistle</li>
-
+   <li>
+      Music Disc
+      
+   https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/b7de163b-fcb6-4c49-90f4-a7e5c7b5d6d7
+   </li>
 </ul> 
 <h3>Planned features:</h3>
 <ul>
