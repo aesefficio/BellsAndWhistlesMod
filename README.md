@@ -7,7 +7,7 @@
    <img src="https://img.shields.io/github/license/alexandsr/BellsAndWhistlesMod" alt="license">
 </div> </h1>
 <div align="center">
-Create: Bells and Whistles is an addon for Create that aims to improve the player experience<br>through various useful decorative and utility features.<br><br>
+Create: Bells and Whistles is an addon for Create that aims to improve<br>the player experience through the addition of various<br>useful decorative and utility features.<br><br>
    </div>
 
 <h3>Current list of features:</h3> 
@@ -48,3 +48,13 @@ Create: Bells and Whistles is an addon for Create that aims to improve the playe
 <ul>
    <li>Bell Items</li>
 </ul>
+
+---
+
+<div align="center">
+   
+   <h3>Find Bells and Whistles on <a href="https://modrinth.com/mod/bellsandwhistles"><span style="margin-top:6px"><img src="https://raw.githubusercontent.com/alexandsr/BellsAndWhistlesMod/main/.assets/modrinth.webp" width="16"></span> Modrinth</a> or <a href="https://legacy.curseforge.com/minecraft/mc-mods/bellsandwhistles"><span style="padding:5px"><img src="https://raw.githubusercontent.com/alexandsr/BellsAndWhistlesMod/9f44e0cb812b00da5d1c60eb691efb9f69761cb3/.assets/curseforge.svg" width="18"></span> CurseForge</a>
+<br><br>
+   
+Read the Wiki <a href="https://github.com/alexandsr/BellsAndWhistlesMod/wiki">here</a> and Report Issues <a href="https://github.com/alexandsr/BellsAndWhistlesMod/issues">here</a></h3>
+</div>
