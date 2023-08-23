@@ -28,10 +28,10 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.BRASS_WHISTLE.get());
                         pOutput.accept(ModItems.WOODEN_WHISTLE.get());
                         pOutput.accept(ModItems.EVANGELION_DISC.get());
-                        pOutput.accept(ModBlocks.METAL_PILOT.get());
                         pOutput.accept(ModBlocks.ANDESITE_PILOT.get());
                         pOutput.accept(ModBlocks.BRASS_PILOT.get());
                         pOutput.accept(ModBlocks.COPPER_PILOT.get());
+                        pOutput.accept(ModBlocks.METAL_PILOT.get());
                         pOutput.accept(ModBlocks.POLISHED_ANDESITE_PILOT.get());
                         pOutput.accept(ModBlocks.POLISHED_GRANITE_PILOT.get());
                         pOutput.accept(ModBlocks.POLISHED_DIORITE_PILOT.get());
