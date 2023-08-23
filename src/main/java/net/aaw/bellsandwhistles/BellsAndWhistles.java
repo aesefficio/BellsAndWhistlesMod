@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.aaw.bellsandwhistles.block.ModBlocks;
 import net.aaw.bellsandwhistles.item.ModCreativeModeTabs;
 import net.aaw.bellsandwhistles.item.ModItems;
+import net.aaw.bellsandwhistles.sound.ModSounds;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -46,6 +47,7 @@ public class BellsAndWhistles {
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModSounds.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
         modEventBus.addListener(this::clientSetup);
         MinecraftForge.EVENT_BUS.register(this);

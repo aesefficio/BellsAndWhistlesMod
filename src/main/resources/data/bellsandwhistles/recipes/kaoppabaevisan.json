@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "minecraft:wooden_trapdoors"
+  },
+  "result": "bellsandwhistles:dalarna_disc",
+  "experience": 1
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "minecraft:fence_gates"
+  },
+  "result": "bellsandwhistles:frenchcore_disc",
+  "experience": 1
+}

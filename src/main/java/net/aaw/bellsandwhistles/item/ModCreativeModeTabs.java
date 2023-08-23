@@ -28,7 +28,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.ANDESITE_BOGIE_STEPS.get());
                         pOutput.accept(ModBlocks.BRASS_BOGIE_STEPS.get());
                         pOutput.accept(ModBlocks.COPPER_BOGIE_STEPS.get());
-
+                        pOutput.accept(ModItems.EVANGELION_DISC.get());
                     })
                     .build());
 

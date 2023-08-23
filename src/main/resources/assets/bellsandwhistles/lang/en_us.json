@@ -10,6 +10,12 @@
 
   "block.bellsandwhistles.andesite_bogie_steps": "Andesite Bogie Steps",
   "block.bellsandwhistles.brass_bogie_steps": "Brass Bogie Steps",
-  "block.bellsandwhistles.copper_bogie_steps": "Copper Bogie Steps"
+  "block.bellsandwhistles.copper_bogie_steps": "Copper Bogie Steps",
 
+  "item.bellsandwhistles.evangelion_disc": "Music Disc",
+  "item.bellsandwhistles.evangelion_disc.desc": "Fly me to the Moon Bossa Nova Remix",
+  "item.bellsandwhistles.frenchcore_disc": "Frenchcore Disc",
+  "item.bellsandwhistles.frenchcore_disc.desc": "Yiagi - 99 Luftballons",
+  "item.bellsandwhistles.dalarna_disc": "Music Disc",
+  "item.bellsandwhistles.dalarna_disc.desc": "Bengt Pegefelt - Fån't ja en körv"
 }

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "minecraft:wooden_fences"
+  },
+  "result": "bellsandwhistles:evangelion_disc",
+  "experience": 1
+}
