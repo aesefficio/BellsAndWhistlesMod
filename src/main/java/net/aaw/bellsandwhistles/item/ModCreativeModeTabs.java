@@ -19,15 +19,15 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BRASS_WHISTLE.get()))
                     .title(Component.translatable("creativetab.bells_and_whistles_tab"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModItems.WOODEN_WHISTLE.get());
-                        pOutput.accept(ModItems.BRASS_WHISTLE.get());
-                        pOutput.accept(ModItems.EVANGELION_DISC.get());
-                        pOutput.accept(ModBlocks.ANDESITE_GRAB_RAILS.get());
-                        pOutput.accept(ModBlocks.BRASS_GRAB_RAILS.get());
-                        pOutput.accept(ModBlocks.COPPER_GRAB_RAILS.get());
                         pOutput.accept(ModBlocks.ANDESITE_BOGIE_STEPS.get());
                         pOutput.accept(ModBlocks.BRASS_BOGIE_STEPS.get());
                         pOutput.accept(ModBlocks.COPPER_BOGIE_STEPS.get());
+                        pOutput.accept(ModBlocks.ANDESITE_GRAB_RAILS.get());
+                        pOutput.accept(ModBlocks.BRASS_GRAB_RAILS.get());
+                        pOutput.accept(ModBlocks.COPPER_GRAB_RAILS.get());
+                        pOutput.accept(ModItems.BRASS_WHISTLE.get());
+                        pOutput.accept(ModItems.WOODEN_WHISTLE.get());
+                        pOutput.accept(ModItems.EVANGELION_DISC.get());
                         pOutput.accept(ModBlocks.METAL_PILOT.get());
                         pOutput.accept(ModBlocks.ANDESITE_PILOT.get());
                         pOutput.accept(ModBlocks.BRASS_PILOT.get());
