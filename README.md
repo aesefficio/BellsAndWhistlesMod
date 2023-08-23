@@ -9,7 +9,7 @@
 <div align="center">
 Create: Bells and Whistles is an addon for Create that aims to improve<br>the player experience through various new decorative and utility features.<br><br>
    </div>
-
+<img src="https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/d42cad7f-29f4-4114-9048-236dcc4a01b3">
 <h3>Current list of features:</h3> 
 <ul>
    <li>Train Pilots
