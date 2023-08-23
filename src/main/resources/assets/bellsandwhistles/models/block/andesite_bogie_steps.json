@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"render_type" : "cutout",
+	"render_type": "cutout",
 	"textures": {
 		"0": "bellsandwhistles:block/metal_rails/ladder_andesite_hoop",
 		"1": "bellsandwhistles:block/metal_rails/hand_rails_andesite",
@@ -137,9 +137,38 @@
 				"south": {"uv": [14, 4, 16, 6], "rotation": 180, "texture": "#0", "cullface": "up"},
 				"down": {"uv": [14, 0, 16, 4], "rotation": 180, "texture": "#0", "cullface": "up"}
 			}
+		},
+		{
+			"name": "ladder",
+			"from": [2, -9, 14],
+			"to": [14, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"color": 0,
+			"faces": {
+				"north": {"uv": [2, 0, 14, 16], "texture": "#missing"}
+			}
+		},
+		{
+			"name": "ladder",
+			"from": [1, -3, 12],
+			"to": [15, -2, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"color": 0,
+			"faces": {
+				"north": {"uv": [2, 0, 14, 16], "texture": "#missing"}
+			}
+		},
+		{
+			"name": "ladder",
+			"from": [3, -9, 12],
+			"to": [13, -8, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"color": 0,
+			"faces": {
+				"north": {"uv": [2, 0, 14, 16], "texture": "#missing"}
+			}
 		}
 	],
-	"display": {},
 	"groups": [
 		{
 			"name": "ladder",
@@ -171,6 +200,12 @@
 					"children": [8, 9, 10, 11]
 				}
 			]
+		},
+		{
+			"name": "VoxelShapes",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [12, 13, 14]
 		}
 	]
 }
