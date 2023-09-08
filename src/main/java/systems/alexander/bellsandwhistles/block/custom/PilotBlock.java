@@ -1,4 +1,4 @@
-package net.aaw.bellsandwhistles.block.custom;
+package systems.alexander.bellsandwhistles.block.custom;
 
 import com.simibubi.create.content.equipment.wrench.IWrenchable;
 import net.minecraft.core.BlockPos;
