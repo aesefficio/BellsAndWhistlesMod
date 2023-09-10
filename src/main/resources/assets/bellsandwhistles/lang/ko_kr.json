@@ -1,7 +1,7 @@
 {
   "item.bellsandwhistles.brass_whistle": "황동 호루라기",
   "item.bellsandwhistles.wooden_whistle": "나무 호루라기",
-  "creativetab.bells_and_whistles_tab": "Bells and Whistles",
+  "creativetab.bells_and_whistles_tab": "Bells & Whistles",
 
   "block.bellsandwhistles.andesite_grab_rails": "안산암 손잡이",
   "block.bellsandwhistles.brass_grab_rails": "황동 손잡이",
@@ -27,13 +27,5 @@
   "block.bellsandwhistles.polished_scorchia_pilot": "윤나는 짙은 스코리아 배장기",
   "block.bellsandwhistles.polished_scoria_pilot": "윤나는 스코리아 배장기",
   "block.bellsandwhistles.polished_tuff_pilot": "윤나는 응회암 배장기",
-  "block.bellsandwhistles.polished_veridium_pilot": "윤나는 심록암 배장기",
-
-
-  "item.bellsandwhistles.evangelion_disc": "음반",
-  "item.bellsandwhistles.evangelion_disc.desc": "Aya - Fly me to the Moon (Bossa Version)",
-  "item.bellsandwhistles.frenchcore_disc": "Frenchcore Experience",
-  "item.bellsandwhistles.frenchcore_disc.desc": "Yiagi - 99 Luftballons",
-  "item.bellsandwhistles.dalarna_disc": "음반",
-  "item.bellsandwhistles.dalarna_disc.desc": "Bengt Pegefelt - Fån't ja en körv"
+  "block.bellsandwhistles.polished_veridium_pilot": "윤나는 심록암 배장기"
 }

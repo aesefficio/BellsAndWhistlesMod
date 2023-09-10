@@ -26,8 +26,8 @@ public class BellsAndWhistles {
     public BellsAndWhistles() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModItems.register(modEventBus);
-        ModBlocks.register(modEventBus);
+        // ModItems.register(modEventBus);
+        // ModBlocks.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
         modEventBus.addListener(this::clientSetup);
         MinecraftForge.EVENT_BUS.register(this);

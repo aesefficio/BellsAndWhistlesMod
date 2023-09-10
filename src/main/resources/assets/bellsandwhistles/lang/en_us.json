@@ -1,7 +1,7 @@
 {
   "item.bellsandwhistles.brass_whistle": "Brass Whistle",
   "item.bellsandwhistles.wooden_whistle": "Wooden Whistle",
-  "creativetab.bells_and_whistles_tab": "Bells and Whistles",
+  "creativetab.bells_and_whistles_tab": "Bells & Whistles",
 
   "block.bellsandwhistles.andesite_grab_rails": "Andesite Grab Rails",
   "block.bellsandwhistles.brass_grab_rails": "Brass Grab Rails",
@@ -27,13 +27,5 @@
   "block.bellsandwhistles.polished_scorchia_pilot": "Polished Scorchia Pilot",
   "block.bellsandwhistles.polished_scoria_pilot": "Polished Scoria Pilot",
   "block.bellsandwhistles.polished_tuff_pilot": "Polished Tuff Pilot",
-  "block.bellsandwhistles.polished_veridium_pilot": "Polished Veridium Pilot",
-
-
-  "item.bellsandwhistles.evangelion_disc": "Music Disc",
-  "item.bellsandwhistles.evangelion_disc.desc": "Aya - Fly me to the Moon (Bossa Version)",
-  "item.bellsandwhistles.frenchcore_disc": "Frenchcore Experience",
-  "item.bellsandwhistles.frenchcore_disc.desc": "Yiagi - 99 Luftballons",
-  "item.bellsandwhistles.dalarna_disc": "Music Disc",
-  "item.bellsandwhistles.dalarna_disc.desc": "Bengt Pegefelt - Fån't ja en körv"
+  "block.bellsandwhistles.polished_veridium_pilot": "Polished Veridium Pilot"
 }
