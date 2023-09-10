@@ -1,0 +1,19 @@
+{
+  "type":"crafting_shaped",
+  "category": "pilots",
+  "group": "stone_pilots",
+  "pattern": [
+    " I ",
+    "# #",
+    "#I#"
+  ],
+  "key":{
+    "#":{
+      "item":"polished_andesite"
+    },
+    "I":{
+      "item":"polished_andesite_stairs"
+    }
+  },
+  "result":{"item":"bellsandwhistles:polished_andesite_pilot"}
+}

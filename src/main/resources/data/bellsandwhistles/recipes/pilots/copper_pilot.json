@@ -1,14 +1,18 @@
 {
   "type":"crafting_shaped",
   "category": "pilots",
+  "group": "pilots",
   "pattern": [
     " # ",
-    "# #",
-    "###"
+    "I I",
+    "I#I"
   ],
   "key":{
     "#":{
-      "item":"copper_ingot"
+      "item":"copper_sheet"
+    },
+    "I":{
+      "item":"create:copper_nugget"
     }
   },
   "result":{"item":"bellsandwhistles:copper_pilot"}

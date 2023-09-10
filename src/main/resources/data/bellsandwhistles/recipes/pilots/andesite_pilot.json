@@ -1,6 +1,7 @@
 {
   "type":"crafting_shaped",
   "category": "pilots",
+  "group": "pilots",
   "pattern": [
     " I ",
     "# #",
