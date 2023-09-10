@@ -1,0 +1,15 @@
+{
+  "type":"crafting_shaped",
+  "category": "pilots",
+  "pattern": [
+    " # ",
+    "# #",
+    "###"
+  ],
+  "key":{
+    "#":{
+      "item":"copper_ingot"
+    }
+  },
+  "result":{"item":"bellsandwhistles:copper_pilot"}
+}

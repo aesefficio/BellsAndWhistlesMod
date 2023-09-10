@@ -1,0 +1,18 @@
+{
+  "type":"crafting_shaped",
+  "category": "pilots",
+  "pattern": [
+    " # ",
+    "I I",
+    "I#I"
+  ],
+  "key":{
+    "#":{
+      "item":"create:brass_sheet"
+    },
+    "I":{
+      "item":"create:brass_nugget"
+    }
+  },
+  "result":{"item":"bellsandwhistles:brass_pilot"}
+}
