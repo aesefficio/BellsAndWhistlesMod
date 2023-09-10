@@ -3,12 +3,12 @@
   "category": "pilots",
   "group": "pilots",
   "pattern": [
-    " X ",
-    "I I",
-    "XIX"
+    " I ",
+    "# #",
+    "III"
   ],
   "key":{
-    "X":{
+    "#":{
       "item":"create:iron_sheet"
     },
     "I":{

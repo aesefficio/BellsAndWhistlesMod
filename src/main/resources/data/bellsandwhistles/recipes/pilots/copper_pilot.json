@@ -3,9 +3,9 @@
   "category": "pilots",
   "group": "pilots",
   "pattern": [
-    " # ",
-    "I I",
-    "I#I"
+    " I ",
+    "# #",
+    "III"
   ],
   "key":{
     "#":{

@@ -1,10 +1,10 @@
 {
-  "block.bellsandwhistles.andesite_grab_rails": "Andesite Grab Rails",
-  "block.bellsandwhistles.brass_grab_rails": "Brass Grab Rails",
-  "block.bellsandwhistles.copper_grab_rails": "Copper Grab Rails",
-  "block.bellsandwhistles.andesite_bogie_steps": "Andesite Bogie Steps",
-  "block.bellsandwhistles.brass_bogie_steps": "Brass Bogie Steps",
-  "block.bellsandwhistles.copper_bogie_steps": "Copper Bogie Steps",
+  "block.bellsandwhistles.andesite_grab_rails": "Andesite Grab Bars",
+  "block.bellsandwhistles.brass_grab_rails": "Brass Grab Bars",
+  "block.bellsandwhistles.copper_grab_rails": "Copper Grab Bars",
+  "block.bellsandwhistles.andesite_bogie_steps": "Andesite Steps",
+  "block.bellsandwhistles.brass_bogie_steps": "Brass Steps",
+  "block.bellsandwhistles.copper_bogie_steps": "Copper Steps",
 
   "block.bellsandwhistles.metal_pilot": "Metal Pilot",
   "block.bellsandwhistles.andesite_pilot": "Andesite Pilot",
