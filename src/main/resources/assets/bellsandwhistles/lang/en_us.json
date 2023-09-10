@@ -1,8 +1,4 @@
 {
-  "item.bellsandwhistles.brass_whistle": "Brass Whistle",
-  "item.bellsandwhistles.wooden_whistle": "Wooden Whistle",
-  "creativetab.bells_and_whistles_tab": "Bells & Whistles",
-
   "block.bellsandwhistles.andesite_grab_rails": "Andesite Grab Rails",
   "block.bellsandwhistles.brass_grab_rails": "Brass Grab Rails",
   "block.bellsandwhistles.copper_grab_rails": "Copper Grab Rails",
@@ -27,5 +23,6 @@
   "block.bellsandwhistles.polished_scorchia_pilot": "Polished Scorchia Pilot",
   "block.bellsandwhistles.polished_scoria_pilot": "Polished Scoria Pilot",
   "block.bellsandwhistles.polished_tuff_pilot": "Polished Tuff Pilot",
-  "block.bellsandwhistles.polished_veridium_pilot": "Polished Veridium Pilot"
+  "block.bellsandwhistles.polished_veridium_pilot": "Polished Veridium Pilot",
+  "itemGroup.bellsandwhistlestab": "Bells & Whistles"
 }
