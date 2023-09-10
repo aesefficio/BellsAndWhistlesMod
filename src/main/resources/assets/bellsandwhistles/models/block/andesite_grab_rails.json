@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
-	"display": "cutout",
+	"ambientocclusion": false,
+	"render_type" : "cutout",
 	"textures": {
 		"0": "bellsandwhistles:block/metal_rails/ladder_andesite_hoop",
 		"1": "bellsandwhistles:block/metal_rails/hand_rails_andesite",
