@@ -114,6 +114,11 @@ repositories {
             name = 'tterrag maven'
             url = 'https://maven.tterrag.com/'
         }
+        maven {
+            // location of the maven that hosts JEI files since January 2023
+            name = "Jared's maven"
+            url = "https://maven.blamejared.com/"
+        }
     }
 }
 
@@ -124,6 +129,10 @@ dependencies {
     implementation fg.deobf("com.simibubi.create:create-${create_minecraft_version}:${create_version}:slim") { transitive = false }
     implementation fg.deobf("com.jozufozu.flywheel:flywheel-forge-${flywheel_minecraft_version}:${flywheel_version}")
     implementation fg.deobf("com.tterrag.registrate:Registrate:${registrate_version}")
+    compileOnly(fg.deobf("mezz.jei:jei-${mc_version}-common-api:${jei_version}"))
+    compileOnly(fg.deobf("mezz.jei:jei-${mc_version}-forge-api:${jei_version}"))
+    // at runtime, use the full JEI jar for Forge
+    runtimeOnly(fg.deobf("mezz.jei:jei-${mc_version}-forge:${jei_version}"))
 }
 
 // Example for how to get properties into the manifest for reading at runtime.
