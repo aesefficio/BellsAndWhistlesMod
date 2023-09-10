@@ -1,10 +1,12 @@
 package systems.alexander.bellsandwhistles.block;
 
 import com.tterrag.registrate.builders.BlockBuilder;
+import net.minecraft.world.item.CreativeModeTab;
 import systems.alexander.bellsandwhistles.BellsAndWhistles;
 import systems.alexander.bellsandwhistles.block.custom.MetalBogieStepsBlock;
 import systems.alexander.bellsandwhistles.block.custom.MetalGrabRailsBlock;
 import systems.alexander.bellsandwhistles.block.custom.PilotBlock;
+import systems.alexander.bellsandwhistles.item.ModCreativeModeTab;
 import systems.alexander.bellsandwhistles.item.ModItems;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.BlockItem;
@@ -77,12 +79,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> POLISHED_VERIDIUM_PILOT = registerBlock("polished_veridium_pilot",
             () -> new PilotBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 
-    private static <T extends Block>RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block) {
-        return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
-    };
+    private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block,
+                                                                            CreativeModeTab tab) {
+        return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+    }
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
-        registerBlockItem(name, toReturn);
+        registerBlockItem(name, toReturn, ModCreativeModeTab.BELLS_AND_WHISTLES_TAB);
         return toReturn;
     }
 
