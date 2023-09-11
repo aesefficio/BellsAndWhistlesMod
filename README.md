@@ -61,9 +61,9 @@ All of the above are incredibly useful and much appreciated. A GitHub issue or d
 
 Translation help is really appreciated. The best way to do so is to make a Git pull request with the translated lang file.
 
-**Thanks to [@AsseyGithub](https://github.com/AsseyGithub) for translating Create: Bells and Whistles to Korean.**
+I have translated the mod into German and Swedish. All other languages, except those listed below, are available for translation.
 
-I have translated the mod into German and Swedish. All other languages are available for translation.
+**Thanks to [@AsseyGithub](https://github.com/AsseyGithub) for translating Create: Bells and Whistles to Korean.**
 
 ---
 
