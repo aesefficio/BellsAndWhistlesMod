@@ -4,8 +4,8 @@ https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/f1bca833-5df6-4
 https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/0cc7160d-08c8-42ff-b8f4-f8c5f0711d83 --> 
 <h1 align="center">Create: Bells and Whistles
 <div align="center">
-   <img src="https://img.shields.io/badge/available%20for-1.20%2F1.20.1-992333" alt="versions 1.20/1.20.1">
-   <img src="https://img.shields.io/badge/modloaders-Forge%20%26%20NeoForged-992333" alt="modloaders forge/neoforged">
+   <img src="https://img.shields.io/badge/available%20for-1.19.2‒1.20.1-992333" alt="available for 1.19.2/1.20.1">
+   <img src="https://img.shields.io/badge/modloaders-Forge%20%26%20NeoForge-992333" alt="modloaders forge/neoforge">
    <img src="https://img.shields.io/badge/license-MIT-65d326" alt="license MIT">
 
    <a href="https://curseforge.com/minecraft/mc-mods/bellsandwhistles"><img src="https://cf.way2muchnoise.eu/905040.svg" alt="curseforge"></a>
@@ -45,18 +45,10 @@ https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/0cc7160d-08c8-4
       <li>Work on trains</li>
       <li>Can be crafted or made in a stonecutter</li>
    </ul> 
-  </li>
-     <li>Wooden Whistle</li>
-   <li>Brass Whistle</li>
-   <li>
-      Music Disc
-      
-   https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/b7de163b-fcb6-4c49-90f4-a7e5c7b5d6d7
-   </li>
 </ul> 
 <h3>Planned features:</h3>
 <ul>
-   <li>Bell Items</li>
+   None for now. Suggest something!
 </ul>
 
 # Contributing
@@ -69,8 +61,9 @@ All of the above are incredibly useful and much appreciated. A GitHub issue or d
 
 Translation help is really appreciated. The best way to do so is to make a Git pull request with the translated lang file.
 
-**Thanks to [@AsseyGithub](https://github.com/AsseyGithub) for translating Create: Bells and Whistles to Korean.**
+I have translated the mod into German and Swedish. All other languages, except those listed below, are available for translation.
 
+**Thanks to [@AsseyGithub](https://github.com/AsseyGithub) for translating Create: Bells and Whistles to Korean.**
 
 ---
 
@@ -79,6 +72,6 @@ Translation help is really appreciated. The best way to do so is to make a Git p
    <h3>Find Bells and Whistles on <a href="https://modrinth.com/mod/bellsandwhistles"><span style="margin-top:6px"><img src="https://raw.githubusercontent.com/alexandsr/BellsAndWhistlesMod/main/.assets/modrinth.webp" width="16"></span> Modrinth</a> or <a href="https://legacy.curseforge.com/minecraft/mc-mods/bellsandwhistles"><span style="padding:5px"><img src="https://raw.githubusercontent.com/alexandsr/BellsAndWhistlesMod/9f44e0cb812b00da5d1c60eb691efb9f69761cb3/.assets/curseforge.svg" width="18"></span> CurseForge</a>
 <br><br>
    
-Read the Wiki <a href="https://github.com/alexandsr/BellsAndWhistlesMod/wiki">here</a> and Report Issues <a href="https://github.com/alexandsr/BellsAndWhistlesMod/issues">here</a></h3>
+Report Issues <a href="https://github.com/alexandsr/BellsAndWhistlesMod/issues">here</a></h3>
 </div>
 <!--https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/154e2b0b-5df7-4e7e-83c2-0d08a36e535d-->
