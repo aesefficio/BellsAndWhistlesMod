@@ -1,8 +1,8 @@
-<p align="center"><img src="https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/12642353-20c9-45b4-af6b-0a875bb709bc" alt="Bells and Whistles Logo" width="140"></p>
 <!-- https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/f9f218a6-0291-4b5a-9ba0-bb7671531bc0 
 https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/f1bca833-5df6-477f-ad89-5501e3fee29d https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/98c3643b-d6a7-4e96-9cd5-6a8cea87ecb9 
 https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/0cc7160d-08c8-42ff-b8f4-f8c5f0711d83 --> 
-<h1 align="center">Create: Bells and Whistles
+<h1 align="center"><img src="https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/5fc70d01-c430-4de1-b547-691e032d75e1" width=650>
+
 <div align="center">
    <img src="https://img.shields.io/badge/available%20for-1.19.2‒1.20.1-992333" alt="available for 1.19.2/1.20.1">
    <img src="https://img.shields.io/badge/modloaders-Forge%20%26%20NeoForge-992333" alt="modloaders forge/neoforge">
