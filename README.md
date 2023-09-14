@@ -6,10 +6,12 @@ https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/0cc7160d-08c8-4
 <div align="center">
    <img src="https://img.shields.io/badge/available%20for-1.19.2‒1.20.1-992333" alt="available for 1.19.2/1.20.1">
    <img src="https://img.shields.io/badge/modloaders-Forge%20%26%20NeoForge-992333" alt="modloaders forge/neoforge">
-   <img src="https://img.shields.io/badge/license-MIT-65d326" alt="license MIT">
+   <img alt="required on client & server" src="https://img.shields.io/badge/required%20on-client%20%26%20server-992333">
 
    <a href="https://curseforge.com/minecraft/mc-mods/bellsandwhistles"><img src="https://cf.way2muchnoise.eu/905040.svg" alt="curseforge"></a>
-   <a href="https://modrinth.com/mod/bellsandwhistles"><img src="https://img.shields.io/modrinth/dt/gJ5afkVv?logo=modrinth&label=&suffix=%20&style=flat&color=242629&labelColor=5ca424&logoColor=1c1c1c" alt="modrinth"></a><!--<br>
+   <a href="https://modrinth.com/mod/bellsandwhistles"><img src="https://img.shields.io/modrinth/dt/gJ5afkVv?logo=modrinth&label=&suffix=%20&style=flat&color=242629&labelColor=5ca424&logoColor=1c1c1c" alt="modrinth"></a>
+   
+   <!--<br>
    <img src="https://wakatime.com/badge/user/d3e71387-5f47-4f39-81e8-9b14b9457c4b/project/af4286ec-a411-416b-bfdf-cffd14a99214.svg" alt="wakatime">-->
 </div></h1>
 <div align="center">
