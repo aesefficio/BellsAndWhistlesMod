@@ -4,7 +4,7 @@ https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/0cc7160d-08c8-4
 <h1 align="center"><img src="https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/5fc70d01-c430-4de1-b547-691e032d75e1" width=650>
 
 <div align="center">
-   <img src="https://img.shields.io/badge/available%20for-1.19.2‒1.20.1-992333" alt="available for 1.19.2/1.20.1">
+   <img src="https://img.shields.io/badge/available%20for-1.19.2‒1.20.2-992333" alt="available for 1.19.2-1.20.2">
    <img src="https://img.shields.io/badge/modloaders-Forge%20%26%20NeoForge-992333" alt="modloaders forge/neoforge">
    <img alt="required on client & server" src="https://img.shields.io/badge/required%20on-client%20%26%20server-992333">
 
