@@ -47,6 +47,7 @@ https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/0cc7160d-08c8-4
       <li>Work on trains</li>
       <li>Can be crafted or made in a stonecutter</li>
    </ul> 
+   <li>Station Platform Block
 </ul> 
 <h3>Planned features:</h3>
 <ul>
