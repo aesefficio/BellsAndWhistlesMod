@@ -30,7 +30,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, BellsAndWhistles.MOD_ID);
 
-    public static final RegistryObject<Block> STATION_PLATFORMM = registerBlock("station_platform",
+    public static final RegistryObject<Block> STATION_PLATFORM = registerBlock("station_platform",
             () -> new PlatformBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE).sound(SoundType.STONE).noOcclusion()));
     public static final RegistryObject<Block> ANDESITE_GRAB_RAILS = registerBlock("andesite_grab_rails",
             () -> new MetalGrabRailsBlock(BlockBehaviour.Properties.copy(Blocks.LADDER).sound(SoundType.METAL).noOcclusion()));
