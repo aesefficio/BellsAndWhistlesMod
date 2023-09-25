@@ -1,6 +1,7 @@
 package systems.alexander.bellsandwhistles.block;
 
 import com.simibubi.create.content.decoration.TrainTrapdoorBlock;
+import com.simibubi.create.content.decoration.copycat.CopycatPanelBlock;
 import com.simibubi.create.content.decoration.encasing.CasingBlock;
 import com.simibubi.create.content.decoration.slidingDoor.SlidingDoorBlock;
 import com.tterrag.registrate.builders.BlockBuilder;
@@ -55,7 +56,6 @@ public class ModBlocks {
             () -> new SlidingDoorBlock(BlockBehaviour.Properties.copy(Blocks.MOSSY_COBBLESTONE).sound(SoundType.METAL).noOcclusion(), false));
     public static final RegistryObject<Block> FOLDING_METRO_DOOR = registerBlock("folding_metro_door",
             () -> new SlidingDoorBlock(BlockBehaviour.Properties.copy(Blocks.MOSSY_COBBLESTONE).sound(SoundType.METAL).noOcclusion(), true));
-
     public static final RegistryObject<Block> METRO_TRAPDOOR = registerBlock("metro_trapdoor",
             () -> new TrainTrapdoorBlock(BlockBehaviour.Properties.copy(Blocks.MOSSY_COBBLESTONE).sound(SoundType.METAL).noOcclusion()));
 

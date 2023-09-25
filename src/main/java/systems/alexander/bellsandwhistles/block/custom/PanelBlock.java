@@ -1,6 +1,7 @@
 package systems.alexander.bellsandwhistles.block.custom;
 
 import com.simibubi.create.AllBlocks;
+import com.simibubi.create.AllShapes;
 import com.simibubi.create.content.decoration.copycat.CopycatBlockEntity;
 import com.simibubi.create.content.decoration.copycat.CopycatPanelBlock;
 import com.simibubi.create.content.decoration.copycat.CopycatSpecialCases;
@@ -23,13 +24,19 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
+import net.minecraft.world.level.block.state.properties.Half;
 import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.VoxelShape;
 
 import java.util.List;
 import java.util.function.Predicate;
 
 public class PanelBlock extends Block {
     public static final DirectionProperty FACING = BlockStateProperties.FACING;
+
+    protected static final int AABB_THICKNESS = 3;
+
 
     private static final int placementHelperId = PlacementHelpers.register(new PlacementHelper());
 
@@ -38,7 +45,7 @@ public class PanelBlock extends Block {
         registerDefaultState(defaultBlockState().setValue(FACING, Direction.UP));
     }
     public static BlockState getMaterial(BlockGetter reader, BlockPos targetPos) {
-        return Blocks.STONE.defaultBlockState();
+        return Blocks.MOSSY_COBBLESTONE.defaultBlockState();
     }
     public boolean canFaceBeOccluded(BlockState state, Direction face) {
         return state.getValue(FACING)
@@ -81,6 +88,10 @@ public class PanelBlock extends Block {
     }
 
 
+
+
+
+
     public static boolean isOccluded(BlockState state, BlockState other, Direction pDirection) {
         Direction facing = state.getValue(FACING);
         if (facing.getOpposite() == other.getValue(FACING) && pDirection == facing)
@@ -94,6 +105,12 @@ public class PanelBlock extends Block {
     public BlockState rotate(BlockState state, Rotation rot) {
         return state.setValue(FACING, rot.rotate(state.getValue(FACING)));
     }
+
+    @Override
+    public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
+        return AllShapes.CASING_3PX.get(pState.getValue(FACING));
+    }
+
 
     @Override
     @SuppressWarnings("deprecation")
