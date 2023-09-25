@@ -6,17 +6,17 @@
     },
     "facing=east": {
       "model": "bellsandwhistles:block/metro/corrugated_panel/block_side",
-      "y": 90,
+      "y": 270,
       "x": 180
     },
     "facing=north": {
       "model": "bellsandwhistles:block/metro/corrugated_panel/block_side",
-      "x": 180
+      "x": 180,
+      "y": 180
     },
     "facing=south": {
       "model": "bellsandwhistles:block/metro/corrugated_panel/block_side",
-      "x": 180,
-      "y": 180
+      "x": 180
     },
     "facing=up": {
       "model": "bellsandwhistles:block/metro/corrugated_panel/block_bottom"
@@ -24,7 +24,7 @@
     "facing=west": {
       "model": "bellsandwhistles:block/metro/corrugated_panel/block_side",
       "x": 180,
-      "y": 270
+      "y": 90
     }
   }
 }

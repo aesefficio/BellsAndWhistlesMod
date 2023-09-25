@@ -28,6 +28,16 @@ public class MetalStepBlock extends MetalLadderBlock implements IWrenchable {
         return true;
     }
 
+    private boolean canAttachTo(BlockGetter pBlockReader, BlockPos pPos, Direction pDirection) {
+        BlockState blockstate = pBlockReader.getBlockState(pPos);
+        return true;
+    }
+    @Override
+    public boolean canSurvive(BlockState pState, LevelReader pLevel, BlockPos pPos) {
+        Direction direction = pState.getValue(FACING);
+        return this.canAttachTo(pLevel, pPos.relative(direction.getOpposite()), direction);
+    }
+
     @Override
     public boolean isLadder(BlockState state, LevelReader level, BlockPos pos, LivingEntity entity) {
         return super.isLadder(state, level, pos, entity);
