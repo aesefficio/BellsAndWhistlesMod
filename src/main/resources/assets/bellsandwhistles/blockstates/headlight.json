@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "face=ceiling": {
+      "model": "bellsandwhistles:block/headlight/headlight_floor",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "bellsandwhistles:block/headlight/headlight_wall",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "bellsandwhistles:block/headlight/headlight_wall",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "bellsandwhistles:block/headlight/headlight_wall"
+    },
+    "face=floor": {
+      "model": "bellsandwhistles:block/headlight/headlight_floor"
+    },
+    "facing=west": {
+      "model": "bellsandwhistles:block/headlight/headlight_wall",
+      "y": 90
+    }
+  }
+}
