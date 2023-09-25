@@ -2,7 +2,7 @@
 	"parent": "block/block",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "bellsandwhistles:block/metro/metro_door_side",
+		"0": "bellsandwhistles:block/metro/door/metro_door_side",
 		"1": "bellsandwhistles:block/metro/metro_trapdoor",
 		"particle": "bellsandwhistles:block/metro/metro_trapdoor"
 	},

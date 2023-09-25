@@ -1,6 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
+	"ambientocclusion": false,
+	"render_type" : "cutout",
 	"textures": {
 		"0": "bellsandwhistles:block/metro/metro_door_side",
 		"2": "bellsandwhistles:block/metro/folding_metro_door_top",
