@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "bellsandwhistles:block/train_platform",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "bellsandwhistles:block/train_platform"
+    },
+    "facing=south": {
+      "model": "bellsandwhistles:block/train_platform",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "bellsandwhistles:block/train_platform",
+      "y": 270
+    }
+  }
+}

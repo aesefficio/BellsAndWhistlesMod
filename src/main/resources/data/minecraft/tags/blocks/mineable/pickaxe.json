@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "bellsandwhistles:metal_pilot"
+    "bellsandwhistles:metal_pilot",
+    "bellsandwhistles:station_platform"
   ]
 }

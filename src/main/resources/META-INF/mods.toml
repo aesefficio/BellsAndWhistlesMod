@@ -6,7 +6,7 @@ issueTrackerURL="https://github.com/alexandsr/BellsAndWhistlesMod/issues"
 [[mods]] #mandatory
 # The modid of the mod
 modId="bellsandwhistles" #mandatory
-version="v0.2" #mandatory
+version="0.3" #mandatory
 displayName="Create: Bells & Whistles" #mandatory
 displayURL="https://alexandsr.github.io/BellsAndWhistlesMod/"
 # A file name (in the root of the mod JAR) containing a logo for display
