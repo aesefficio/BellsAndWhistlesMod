@@ -44,6 +44,13 @@ public class ModBlocks {
             () -> new MetalBogieStepsBlock(BlockBehaviour.Properties.copy(Blocks.LADDER).sound(SoundType.METAL).noOcclusion()));
     public static final RegistryObject<Block> COPPER_BOGIE_STEPS = registerBlock("copper_bogie_steps",
             () -> new MetalBogieStepsBlock(BlockBehaviour.Properties.copy(Blocks.LADDER).sound(SoundType.METAL).noOcclusion()));
+    public static final RegistryObject<Block> ANDESITE_DOOR_STEP = registerBlock("andesite_door_step",
+            () -> new MetalBogieStepsBlock(BlockBehaviour.Properties.copy(Blocks.LADDER).sound(SoundType.METAL).noOcclusion()));
+    public static final RegistryObject<Block> BRASS_DOOR_STEP = registerBlock("brass_door_step",
+            () -> new MetalBogieStepsBlock(BlockBehaviour.Properties.copy(Blocks.LADDER).sound(SoundType.METAL).noOcclusion()));
+    public static final RegistryObject<Block> COPPER_DOOR_STEP = registerBlock("copper_door_step" +
+                    "",
+            () -> new MetalBogieStepsBlock(BlockBehaviour.Properties.copy(Blocks.LADDER).sound(SoundType.METAL).noOcclusion()));
 
     public static final RegistryObject<Block> HEADLIGHT = registerBlock("headlight",
             () -> new HeadlightBlock(BlockBehaviour.Properties.copy(Blocks.LANTERN).sound(SoundType.LANTERN)));
