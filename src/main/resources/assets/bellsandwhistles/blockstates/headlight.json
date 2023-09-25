@@ -4,21 +4,21 @@
       "model": "bellsandwhistles:block/headlight/headlight_floor",
       "x": 180
     },
-    "face=wall, facing=east": {
+    "facing=east, face=wall": {
       "model": "bellsandwhistles:block/headlight/headlight_wall",
       "y": 90
     },
-    "face=wall, facing=north": {
+    "facing=north, face=wall": {
       "model": "bellsandwhistles:block/headlight/headlight_wall"
     },
-    "face=wall, facing=south": {
+    "facing=south, face=wall": {
       "model": "bellsandwhistles:block/headlight/headlight_wall",
       "y": 180
     },
     "face=floor": {
       "model": "bellsandwhistles:block/headlight/headlight_floor"
     },
-    "face=wall, facing=west": {
+    "facing=west, face=wall": {
       "model": "bellsandwhistles:block/headlight/headlight_wall",
       "y": 270
     }

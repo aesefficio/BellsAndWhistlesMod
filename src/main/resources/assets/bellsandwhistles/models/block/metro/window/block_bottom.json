@@ -6,8 +6,7 @@
 	"textures": {
 		"0": "bellsandwhistles:block/metro/door/metro_door_side",
 		"1": "bellsandwhistles:block/metro/metro_window",
-		"particle": "bellsandwhistles:block/metro/metro_window",
-
+		"particle": "bellsandwhistles:block/metro/metro_window"
 	},
 	"elements": [
 		{
