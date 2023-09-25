@@ -5,11 +5,9 @@ import com.simibubi.create.content.decoration.encasing.CasingBlock;
 import com.simibubi.create.content.decoration.slidingDoor.SlidingDoorBlock;
 import com.tterrag.registrate.builders.BlockBuilder;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.level.block.TrapDoorBlock;
 import systems.alexander.bellsandwhistles.BellsAndWhistles;
-import systems.alexander.bellsandwhistles.block.custom.MetalBogieStepsBlock;
-import systems.alexander.bellsandwhistles.block.custom.MetalGrabRailsBlock;
-import systems.alexander.bellsandwhistles.block.custom.PilotBlock;
-import systems.alexander.bellsandwhistles.block.custom.PlatformBlock;
+import systems.alexander.bellsandwhistles.block.custom.*;
 import systems.alexander.bellsandwhistles.item.ModCreativeModeTab;
 import systems.alexander.bellsandwhistles.item.ModItems;
 import net.minecraft.tags.BlockTags;
@@ -53,17 +51,22 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> CORRUGATED_METRO_CASING = registerBlock("corrugated_metro_casing",
             () -> new CasingBlock(BlockBehaviour.Properties.copy(Blocks.MOSSY_COBBLESTONE).sound(SoundType.METAL), true));
-    public static final RegistryObject<Block> METRO_DOOR = registerBlock("metro_door",
+    public static final RegistryObject<Block> SLIDING_METRO_DOOR = registerBlock("sliding_metro_door",
+            () -> new SlidingDoorBlock(BlockBehaviour.Properties.copy(Blocks.MOSSY_COBBLESTONE).sound(SoundType.METAL).noOcclusion(), false));
+    public static final RegistryObject<Block> FOLDING_METRO_DOOR = registerBlock("folding_metro_door",
             () -> new SlidingDoorBlock(BlockBehaviour.Properties.copy(Blocks.MOSSY_COBBLESTONE).sound(SoundType.METAL).noOcclusion(), true));
 
     public static final RegistryObject<Block> METRO_TRAPDOOR = registerBlock("metro_trapdoor",
             () -> new TrainTrapdoorBlock(BlockBehaviour.Properties.copy(Blocks.MOSSY_COBBLESTONE).sound(SoundType.METAL).noOcclusion()));
 
+    public static final RegistryObject<Block> METRO_WINDOW = registerBlock("metro_window",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.MOSSY_COBBLESTONE).sound(SoundType.METAL).noOcclusion()));
+
     public static final RegistryObject<Block> METRO_PANEL = registerBlock("metro_panel",
-            () -> new TrainTrapdoorBlock(BlockBehaviour.Properties.copy(Blocks.MOSSY_COBBLESTONE).sound(SoundType.METAL).noOcclusion()));
+            () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.MOSSY_COBBLESTONE).sound(SoundType.METAL).noOcclusion()));
 
     public static final RegistryObject<Block> CORRUGATED_METRO_PANEL = registerBlock("corrugated_metro_panel",
-            () -> new TrainTrapdoorBlock(BlockBehaviour.Properties.copy(Blocks.MOSSY_COBBLESTONE).sound(SoundType.METAL).noOcclusion()));
+            () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.MOSSY_COBBLESTONE).sound(SoundType.METAL).noOcclusion()));
 
 
     public static final RegistryObject<Block> METAL_PILOT = registerBlock("metal_pilot",
