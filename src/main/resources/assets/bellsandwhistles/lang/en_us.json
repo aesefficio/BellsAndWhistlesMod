@@ -5,7 +5,24 @@
   "block.bellsandwhistles.andesite_bogie_steps": "Andesite Steps",
   "block.bellsandwhistles.brass_bogie_steps": "Brass Steps",
   "block.bellsandwhistles.copper_bogie_steps": "Copper Steps",
+  "block.bellsandwhistles.andesite_bogie_steps": "Andesite Door Step",
+  "block.bellsandwhistles.brass_bogie_steps": "Brass Door Step",
+  "block.bellsandwhistles.copper_bogie_steps": "Copper Door Step",
+  "block.bellsandwhistles.headlight": "Headlight",
+  "block.bellsandwhistles.ornate_iron_trapdoor": "Ornate Iron Trapdoor",
   "block.bellsandwhistles.station_platform": "Station Platform",
+  "block.bellsandwhistles.metro_casing": "Metro Casing",
+  "block.bellsandwhistles.corrugated_metro_casing": "Corrugated Metro Casing",
+  "block.bellsandwhistles.metro_panel": "Metro Panel",
+  "block.bellsandwhistles.corrugated_metro_panel": "Corrugated Metro Panel",
+  "block.bellsandwhistles.metro_window": "Metro Window",
+  "block.bellsandwhistles.metro_window": "Metro Trapdoor",
+
+
+
+
+
+
 
   "block.bellsandwhistles.metal_pilot": "Metal Pilot",
   "block.bellsandwhistles.andesite_pilot": "Andesite Pilot",

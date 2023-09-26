@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube_all",
 	"textures": {
 		"0": "bellsandwhistles:block/metro/corrugated_metro",
 		"1": "bellsandwhistles:block/metro/metro",

@@ -1,15 +1,34 @@
 package systems.alexander.bellsandwhistles.block;
 
+import com.simibubi.create.AllCreativeModeTabs;
+import com.simibubi.create.AllTags;
+import com.simibubi.create.content.contraptions.behaviour.DoorMovingInteraction;
 import com.simibubi.create.content.decoration.TrainTrapdoorBlock;
 import com.simibubi.create.content.decoration.copycat.CopycatPanelBlock;
 import com.simibubi.create.content.decoration.encasing.CasingBlock;
 import com.simibubi.create.content.decoration.slidingDoor.SlidingDoorBlock;
+import com.simibubi.create.content.decoration.slidingDoor.SlidingDoorMovementBehaviour;
+import com.simibubi.create.foundation.data.AssetLookup;
+import com.simibubi.create.foundation.data.BuilderTransformers;
+import com.simibubi.create.foundation.data.CreateRegistrate;
+import com.tterrag.registrate.Registrate;
 import com.tterrag.registrate.builders.BlockBuilder;
+import com.tterrag.registrate.util.entry.BlockEntry;
+import com.tterrag.registrate.util.nullness.NonNullUnaryOperator;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.data.CachedOutput;
+import net.minecraft.data.loot.BlockLoot;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MaterialColor;
+import net.minecraftforge.client.model.generators.BlockModelProvider;
+import net.minecraftforge.client.model.generators.ModelFile;
 import systems.alexander.bellsandwhistles.BellsAndWhistles;
 import systems.alexander.bellsandwhistles.block.custom.*;
+import systems.alexander.bellsandwhistles.data.LookupAsset;
 import systems.alexander.bellsandwhistles.item.ModCreativeModeTab;
 import systems.alexander.bellsandwhistles.item.ModItems;
 import net.minecraft.tags.BlockTags;
@@ -21,7 +40,15 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+
+import java.io.IOException;
 import java.util.function.Supplier;
+import net.minecraftforge.client.model.generators.BlockStateProvider;
+
+import static com.simibubi.create.AllInteractionBehaviours.interactionBehaviour;
+import static com.simibubi.create.AllMovementBehaviours.movementBehaviour;
+import static com.simibubi.create.Create.REGISTRATE;
+import static com.simibubi.create.foundation.data.TagGen.pickaxeOnly;
 
 public class ModBlocks {
     public static <T extends Block, P> NonNullFunction<BlockBuilder<T, P>, BlockBuilder<T, P>> axeOnly() {
@@ -29,8 +56,6 @@ public class ModBlocks {
     }
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, BellsAndWhistles.MOD_ID);
-    public static final RegistryObject<Block> STATION_PLATFORM = registerBlock("station_platform",
-            () -> new PlatformBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE).sound(SoundType.STONE).noOcclusion()));
     public static final RegistryObject<Block> ANDESITE_GRAB_RAILS = registerBlock("andesite_grab_rails",
             () -> new MetalGrabRailsBlock(BlockBehaviour.Properties.copy(Blocks.LADDER).sound(SoundType.METAL).noOcclusion()));
     public static final RegistryObject<Block> BRASS_GRAB_RAILS = registerBlock("brass_grab_rails",
@@ -45,15 +70,20 @@ public class ModBlocks {
     public static final RegistryObject<Block> COPPER_BOGIE_STEPS = registerBlock("copper_bogie_steps",
             () -> new MetalBogieStepsBlock(BlockBehaviour.Properties.copy(Blocks.LADDER).sound(SoundType.METAL).noOcclusion()));
     public static final RegistryObject<Block> ANDESITE_DOOR_STEP = registerBlock("andesite_door_step",
-            () -> new MetalBogieStepsBlock(BlockBehaviour.Properties.copy(Blocks.LADDER).sound(SoundType.METAL).noOcclusion()));
+            () -> new MetalStepBlock(BlockBehaviour.Properties.copy(Blocks.LADDER).sound(SoundType.METAL).noOcclusion()));
     public static final RegistryObject<Block> BRASS_DOOR_STEP = registerBlock("brass_door_step",
-            () -> new MetalBogieStepsBlock(BlockBehaviour.Properties.copy(Blocks.LADDER).sound(SoundType.METAL).noOcclusion()));
+            () -> new MetalStepBlock(BlockBehaviour.Properties.copy(Blocks.LADDER).sound(SoundType.METAL).noOcclusion()));
     public static final RegistryObject<Block> COPPER_DOOR_STEP = registerBlock("copper_door_step" +
                     "",
-            () -> new MetalBogieStepsBlock(BlockBehaviour.Properties.copy(Blocks.LADDER).sound(SoundType.METAL).noOcclusion()));
+            () -> new MetalStepBlock(BlockBehaviour.Properties.copy(Blocks.LADDER).sound(SoundType.METAL).noOcclusion()));
 
     public static final RegistryObject<Block> HEADLIGHT = registerBlock("headlight",
             () -> new HeadlightBlock(BlockBehaviour.Properties.copy(Blocks.LANTERN).sound(SoundType.LANTERN)));
+    public static final RegistryObject<Block> ORNATE_IRON_TRAPDOOR = registerBlock("ornate_iron_trapdoor",
+            () -> new TrainTrapdoorBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> STATION_PLATFORM = registerBlock("station_platform",
+            () -> new PlatformBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE).sound(SoundType.STONE).noOcclusion()));
 
     public static final RegistryObject<Block> METRO_CASING = registerBlock("metro_casing",
             () -> new CasingBlock(BlockBehaviour.Properties.copy(Blocks.MOSSY_COBBLESTONE).sound(SoundType.METAL), true));
@@ -71,12 +101,6 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> METRO_TRAPDOOR = registerBlock("metro_trapdoor",
             () -> new TrainTrapdoorBlock(BlockBehaviour.Properties.copy(Blocks.MOSSY_COBBLESTONE).sound(SoundType.METAL).noOcclusion()));
-
-    public static final RegistryObject<Block> SLIDING_METRO_DOOR = registerBlock("sliding_metro_door",
-            () -> new SlidingDoorBlock(BlockBehaviour.Properties.copy(Blocks.MOSSY_COBBLESTONE).sound(SoundType.METAL).noOcclusion(), false));
-    public static final RegistryObject<Block> FOLDING_METRO_DOOR = registerBlock("folding_metro_door",
-            () -> new SlidingDoorBlock(BlockBehaviour.Properties.copy(Blocks.MOSSY_COBBLESTONE).sound(SoundType.METAL).noOcclusion(), true));
-
     public static final RegistryObject<Block> METAL_PILOT = registerBlock("metal_pilot",
             () -> new PilotBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
     public static final RegistryObject<Block> ANDESITE_PILOT = registerBlock("andesite_pilot",
