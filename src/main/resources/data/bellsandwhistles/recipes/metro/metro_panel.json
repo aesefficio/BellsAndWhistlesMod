@@ -1,0 +1,12 @@
+{
+  "type":"crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key":{
+    "#":{
+      "item":"bellsandwhistles:metro_casing"
+    }
+  },
+  "result":{"item":"bellsandwhistles:metro_panel", "count":  16}
+}
