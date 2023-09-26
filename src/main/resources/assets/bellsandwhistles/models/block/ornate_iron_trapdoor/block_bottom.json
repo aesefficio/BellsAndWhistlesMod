@@ -6,7 +6,7 @@
 	"textures": {
 		"0": "bellsandwhistles:block/ornate_iron_trapdoor/block_side",
 		"1": "bellsandwhistles:block/ornate_iron_trapdoor/block_front",
-		"particle": "bellsandwhistles:ornate_iron_trapdoor/block_front"
+		"particle": "bellsandwhistles:block/ornate_iron_trapdoor/block_front"
 	},
 	"elements": [
 		{
