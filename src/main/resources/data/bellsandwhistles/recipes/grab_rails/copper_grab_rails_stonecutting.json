@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "forge:ingots/copper"
+  },
+  "result": "bellsandwhistles:copper_grab_rails",
+  "count": 4
+}

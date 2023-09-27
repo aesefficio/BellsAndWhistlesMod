@@ -1,0 +1,17 @@
+{
+  "type":"crafting_shaped",
+  "pattern": [
+    "# ",
+    "#I",
+    "# "
+  ],
+  "key":{
+    "#":{
+      "item":"minecraft:iron_nugget"
+    },
+    "I":{
+      "item":"minecraft:torch"
+    }
+  },
+  "result":{"item":"bellsandwhistles:headlight", "count":  2}
+}
