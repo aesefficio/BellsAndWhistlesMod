@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "create:andesite_alloy"
-  },
-  "result": "bellsandwhistles:andesite_grab_rails",
-  "count": 3
-}

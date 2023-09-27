@@ -1,14 +1,23 @@
 {
-  "item.bellsandwhistles.brass_whistle": "Brass Whistle",
-  "item.bellsandwhistles.wooden_whistle": "Wooden Whistle",
-  "creativetab.bells_and_whistles_tab": "Bells and Whistles",
+  "block.bellsandwhistles.andesite_grab_rails": "Andesite Grab Bars",
+  "block.bellsandwhistles.brass_grab_rails": "Brass Grab Bars",
+  "block.bellsandwhistles.copper_grab_rails": "Copper Grab Bars",
+  "block.bellsandwhistles.andesite_bogie_steps": "Andesite Steps",
+  "block.bellsandwhistles.brass_bogie_steps": "Brass Steps",
+  "block.bellsandwhistles.copper_bogie_steps": "Copper Steps",
+  "block.bellsandwhistles.andesite_door_step": "Andesite Door Step",
+  "block.bellsandwhistles.brass_door_step": "Brass Door Step",
+  "block.bellsandwhistles.copper_door_step": "Copper Door Step",
+  "block.bellsandwhistles.headlight": "Headlight",
+  "block.bellsandwhistles.ornate_iron_trapdoor": "Ornate Iron Trapdoor",
+  "block.bellsandwhistles.station_platform": "Station Platform",
+  "block.bellsandwhistles.metro_casing": "Metro Casing",
+  "block.bellsandwhistles.corrugated_metro_casing": "Corrugated Metro Casing",
+  "block.bellsandwhistles.metro_panel": "Metro Panel",
+  "block.bellsandwhistles.corrugated_metro_panel": "Corrugated Metro Panel",
+  "block.bellsandwhistles.metro_window": "Metro Window",
+  "block.bellsandwhistles.metro_trapdoor": "Metro Trapdoor",
 
-  "block.bellsandwhistles.andesite_grab_rails": "Andesite Grab Rails",
-  "block.bellsandwhistles.brass_grab_rails": "Brass Grab Rails",
-  "block.bellsandwhistles.copper_grab_rails": "Copper Grab Rails",
-  "block.bellsandwhistles.andesite_bogie_steps": "Andesite Bogie Steps",
-  "block.bellsandwhistles.brass_bogie_steps": "Brass Bogie Steps",
-  "block.bellsandwhistles.copper_bogie_steps": "Copper Bogie Steps",
 
   "block.bellsandwhistles.metal_pilot": "Metal Pilot",
   "block.bellsandwhistles.andesite_pilot": "Andesite Pilot",
@@ -28,12 +37,5 @@
   "block.bellsandwhistles.polished_scoria_pilot": "Polished Scoria Pilot",
   "block.bellsandwhistles.polished_tuff_pilot": "Polished Tuff Pilot",
   "block.bellsandwhistles.polished_veridium_pilot": "Polished Veridium Pilot",
-
-
-  "item.bellsandwhistles.evangelion_disc": "Music Disc",
-  "item.bellsandwhistles.evangelion_disc.desc": "Aya - Fly me to the Moon (Bossa Version)",
-  "item.bellsandwhistles.frenchcore_disc": "Frenchcore Experience",
-  "item.bellsandwhistles.frenchcore_disc.desc": "Yiagi - 99 Luftballons",
-  "item.bellsandwhistles.dalarna_disc": "Music Disc",
-  "item.bellsandwhistles.dalarna_disc.desc": "Bengt Pegefelt - Fån't ja en körv"
+  "itemGroup.bellsandwhistlestab": "Bells & Whistles"
 }
