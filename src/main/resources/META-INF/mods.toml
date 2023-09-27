@@ -6,7 +6,7 @@ issueTrackerURL="https://github.com/alexandsr/BellsAndWhistlesMod/issues"
 [[mods]] #mandatory
 # The modid of the mod
 modId="bellsandwhistles" #mandatory
-version="0.3" #mandatory
+version="0.4" #mandatory
 displayName="Create: Bells & Whistles" #mandatory
 displayURL="https://alexandsr.github.io/BellsAndWhistlesMod/"
 # A file name (in the root of the mod JAR) containing a logo for display
@@ -15,7 +15,7 @@ authors="Alexander Akira Weimer" #optional
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Create: Bells and Whistles is an add-on for Create that adds various decorative and utility features.
+ Create: Bells & Whistles is an add-on for the Create mod that focuses on the player experience, adding various new decorative and utility features.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.bellsandwhistles]] #optional
