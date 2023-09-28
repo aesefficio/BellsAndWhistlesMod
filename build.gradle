@@ -5,7 +5,7 @@ plugins {
     id 'org.parchmentmc.librarian.forgegradle' version '1.+'
 }
 
-version = 'v0.4'
+version = 'v0.4.1'
 group = 'systems.alexander.bellsandwhistles' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'bellsandwhistles'
 
