@@ -75,6 +75,6 @@ I have translated the mod into German and Swedish. All other languages, except t
    <h3>Find Bells and Whistles on <a href="https://modrinth.com/mod/bellsandwhistles"><span style="margin-top:6px"><img src="https://raw.githubusercontent.com/alexandsr/BellsAndWhistlesMod/main/.assets/modrinth.webp" width="16"></span> Modrinth</a> or <a href="https://legacy.curseforge.com/minecraft/mc-mods/bellsandwhistles"><span style="padding:5px"><img src="https://raw.githubusercontent.com/alexandsr/BellsAndWhistlesMod/9f44e0cb812b00da5d1c60eb691efb9f69761cb3/.assets/curseforge.svg" width="18"></span> CurseForge</a>
 <br><br>
    
-Report Issues <a href="https://github.com/alexandsr/BellsAndWhistlesMod/issues">here</a></h3>
+Report Issues <a href="https://github.com/sudolev/BellsAndWhistlesMod/issues">here</a></h3>
 </div>
 <!--https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/154e2b0b-5df7-4e7e-83c2-0d08a36e535d-->
