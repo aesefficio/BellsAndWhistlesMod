@@ -18,7 +18,9 @@ https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/0cc7160d-08c8-4
 <h3>Create: Bells & Whistles is an add-on for the Create mod that focuses on the player experience, adding various new decorative and utility features.</h3><br>
    </div>
 <img src="https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/d42cad7f-29f4-4114-9048-236dcc4a01b3">
-<h3>Current list of features:</h3> 
+<details>
+<summary><h3>Current list of features:</h3></summary>
+<br>
 <ul>
    <li>Train Pilots
       <ul>
@@ -49,22 +51,11 @@ https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/0cc7160d-08c8-4
    </ul> 
    <li>Station Platform Block
 </ul> 
-<h3>Planned features:</h3>
-<ul>
-   None for now. Suggest something!
-</ul>
+</details>
 
-# Contributing
+# Credits
 
-### Bug reports, suggestions, and ideas
-
-All of the above are incredibly useful and much appreciated. A GitHub issue or dm on discord (@alexandsr) are both good ways to get in contact.
-
-### Translating
-
-Translation help is really appreciated. The best way to do so is to make a Git pull request with the translated lang file.
-
-I have translated the mod into German and Swedish. All other languages, except those listed below, are available for translation.
+**Thanks to [@AsseyGithub](https://github.com/AsseyGithub) for translating Create: Bells and Whistles to Korean.**
 
 **Thanks to [@AsseyGithub](https://github.com/AsseyGithub) for translating Create: Bells and Whistles to Korean.**
 
