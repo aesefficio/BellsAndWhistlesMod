@@ -57,8 +57,6 @@ https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/0cc7160d-08c8-4
 
 **Thanks to [@AsseyGithub](https://github.com/AsseyGithub) for translating Create: Bells and Whistles to Korean.**
 
-**Thanks to [@AsseyGithub](https://github.com/AsseyGithub) for translating Create: Bells and Whistles to Korean.**
-
 ---
 
 <div align="center">
