@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "bellsandwhistles:block/metro/panel/block_bottom",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "bellsandwhistles:block/metro/panel/block_side",
+      "y": 270,
+      "x": 180
+    },
+    "facing=north": {
+      "model": "bellsandwhistles:block/metro/panel/block_side"
+    },
+    "facing=south": {
+      "model": "bellsandwhistles:block/metro/panel/block_side",
+      "x": 180
+    },
+    "facing=up": {
+      "model": "bellsandwhistles:block/metro/panel/block_bottom"
+    },
+    "facing=west": {
+      "model": "bellsandwhistles:block/metro/panel/block_side",
+      "y": 90,
+      "x": 180
+    }
+  }
+}

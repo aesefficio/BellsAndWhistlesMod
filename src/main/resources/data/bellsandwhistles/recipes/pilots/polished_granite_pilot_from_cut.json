@@ -1,0 +1,19 @@
+{
+  "type":"crafting_shaped",
+  "category": "pilots",
+  "group": "stone_pilots",
+  "pattern": [
+    " I ",
+    "# #",
+    "#I#"
+  ],
+  "key":{
+    "#":{
+      "item":"create:polished_cut_granite"
+    },
+    "I":{
+      "item":"create:polished_cut_granite_stairs"
+    }
+  },
+  "result":{"item":"bellsandwhistles:polished_granite_pilot"}
+}

@@ -1,0 +1,19 @@
+{
+  "type":"crafting_shaped",
+  "category": "pilots",
+  "group": "stone_pilots",
+  "pattern": [
+    " I ",
+    "# #",
+    "#I#"
+  ],
+  "key":{
+    "#":{
+      "item":"polished_diorite"
+    },
+    "I":{
+      "item":"polished_diorite_stairs"
+    }
+  },
+  "result":{"item":"bellsandwhistles:polished_diorite_pilot"}
+}

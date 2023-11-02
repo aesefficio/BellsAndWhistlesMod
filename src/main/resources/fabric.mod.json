@@ -1,26 +1,23 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "bellsandwhistles",
   "version": "${version}",
-  "name": "Example Mod",
+  "name": "Create: Bells & Whistles",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "sudolev"
   ],
   "contact": {
     "sources": "https://github.com/Fabricators-of-Create/create-fabric-addon-template"
   },
   "license": "CC0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/bellsandwhistles/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.modid.ExampleMod"
+      "com.sudolev.bellsandwhistles.BellsAndWhistles"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
   "depends": {
     "fabricloader": ">=${fabric_loader_version}",
     "fabric-api": ">=${fabric_api_version}",
