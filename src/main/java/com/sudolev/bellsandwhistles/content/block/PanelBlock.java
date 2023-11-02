@@ -17,10 +17,10 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 
 public class PanelBlock extends Block {
     public static final DirectionProperty FACING = BlockStateProperties.FACING;
-net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap.INSTANCE.putBlock(Block, RenderLayer)
     protected static final int AABB_THICKNESS = 3;
 
-    public PanelBlock(Properties pProperties) {
+
+	public PanelBlock(Properties pProperties) {
         super(pProperties);
         registerDefaultState(defaultBlockState().setValue(FACING, Direction.UP));
     }
@@ -66,9 +66,22 @@ net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap.INSTANCE.putBloc
 
     @Override
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
-		return Block.box(0, 0, 0, 16, 3, 16);
+		switch (pState.getValue(FACING)) {
+			case NORTH:
+			default:
+				return Block.box(0.0, 0.0, 13.0, 16.0, 16.0, 16.0);
+			case SOUTH:
+				return Block.box(0.0, 0.0, 0.0, 16.0, 16.0, 3.0);
+			case WEST:
+				return Block.box(13.0, 0.0, 0.0, 16.0, 16.0, 16.0);
+			case EAST:
+				return Block.box(0.0, 0.0, 0.0, 3.0, 16.0, 16.0);
+			case UP:
+				return Block.box(0.0, 13.0, 0.0, 16.0, 16.0, 16.0);
+			case DOWN:
+				return Block.box(0, 0, 0, 16, 3, 16);
+		}
 	}
-
 
     @Override
     @SuppressWarnings("deprecation")

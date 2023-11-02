@@ -3,16 +3,11 @@ package com.sudolev.bellsandwhistles;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.jozufozu.flywheel.backend.RenderLayer;
 import com.simibubi.create.Create;
 import com.sudolev.bellsandwhistles.content.CBWBlocks;
 
 import io.github.fabricators_of_create.porting_lib.util.EnvExecutor;
-import net.fabricmc.api.ClientModInitializer;
-import net.fabricmc.api.EnvType;
-import net.fabricmc.api.Environment;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.resources.ResourceLocation;
 
 public class BellsAndWhistles implements ModInitializer {
@@ -29,13 +24,6 @@ public class BellsAndWhistles implements ModInitializer {
 				() -> () -> "{} is accessing Porting Lib from the server!"
 		), NAME);
 	}
-
-	@Environment(EnvType.CLIENT)
-	public class BellsAndWhistlesClient implements ClientModInitializer() {
-			public void onInitializeClient() {
-			BlockRenderLayerMap.INSTANCE.putBlock(ExampleMod.MY_BLOCK, RenderLayer.getCutout());
-	}
-}
 
 	public static ResourceLocation id(String path) {
 		return new ResourceLocation(ID, path);
