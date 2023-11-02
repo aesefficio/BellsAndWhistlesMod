@@ -1,16 +1,14 @@
 package com.sudolev.bellsandwhistles;
 
-import com.simibubi.create.Create;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-import com.sudolev.bellsandwhistles.content.CBWBlocksRegistry;
+import com.simibubi.create.Create;
+import com.sudolev.bellsandwhistles.content.CBWBlocks;
 
 import io.github.fabricators_of_create.porting_lib.util.EnvExecutor;
 import net.fabricmc.api.ModInitializer;
-
 import net.minecraft.resources.ResourceLocation;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class BellsAndWhistles implements ModInitializer {
 	public static final String ID = "bellsandwhistles";
@@ -19,7 +17,7 @@ public class BellsAndWhistles implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		CBWBlocksRegistry.registerModBlocks();
+		CBWBlocks.registerModBlocks();
 		LOGGER.info("Create addon mod [{}] is loading alongside Create [{}]!", NAME, Create.VERSION);
 		LOGGER.info(EnvExecutor.unsafeRunForDist(
 				() -> () -> "{} is accessing Porting Lib from the client!",

@@ -1,7 +1,5 @@
 package com.sudolev.bellsandwhistles.content;
 
-import org.intellij.lang.annotations.Identifier;
-
 import com.simibubi.create.content.contraptions.base.CasingBlock;
 import com.simibubi.create.content.curiosities.deco.TrainTrapdoorBlock;
 import com.sudolev.bellsandwhistles.BellsAndWhistles;
@@ -17,6 +15,7 @@ import com.tterrag.registrate.util.nullness.NonNullFunction;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.core.Registry;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -27,7 +26,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.TrapDoorBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 
-public class CBWBlocksRegistry {
+public class CBWBlocks {
 	public static <T extends Block, P> NonNullFunction<BlockBuilder<T, P>, BlockBuilder<T, P>> axeOnly() {
 		return b -> b.tag(BlockTags.MINEABLE_WITH_AXE);
 	}
@@ -114,11 +113,11 @@ public class CBWBlocksRegistry {
 
 		private static Block registerBlock(String name, Block block, CreativeModeTab tab) {
 			registerBlockItem(name, block, tab);
-			return Registry.register(Registry.BLOCK, new Identifier(BellsAndWhistles.ID, name), block);
+			return Registry.register(Registry.BLOCK, new ResourceLocation(BellsAndWhistles.ID, name), block);
 		}
 
 		private static Item registerBlockItem(String name, Block block, CreativeModeTab tab) {
-			return Registry.register(Registry.ITEM, new Identifier(BellsAndWhistles.ID, name),
+			return Registry.register(Registry.ITEM, new ResourceLocation(BellsAndWhistles.ID, name),
 					new BlockItem(block, new FabricItemSettings().group(tab)));
 		}
 
