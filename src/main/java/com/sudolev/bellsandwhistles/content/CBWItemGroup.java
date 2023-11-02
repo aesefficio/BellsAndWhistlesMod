@@ -1,13 +1,13 @@
 package com.sudolev.bellsandwhistles.content;
 
+import com.sudolev.bellsandwhistles.BellsAndWhistles;
+
+import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.world.item.CreativeModeTab;
-import systems.alexander.bellsandwhistles.block.ModBlocks;
 import net.minecraft.world.item.ItemStack;
+import org.intellij.lang.annotations.Identifier;
+
 public class CBWItemGroup {
-    public static final CreativeModeTab BELLS_AND_WHISTLES_TAB = new CreativeModeTab("bellsandwhistlestab") {
-        @Override
-        public ItemStack makeIcon() {
-            return new ItemStack(CBWBlocksRegistry.METAL_PILOT.get());
-        }
-    };
+	public static final CreativeModeTab BELLSANDWHISTLESTAB = FabricItemGroupBuilder.build(
+			new Identifier(BellsAndWhistles.ID, "bellsandwhistlestab"), () -> new ItemStack(CBWBlocksRegistry.METAL_PILOT));
 }

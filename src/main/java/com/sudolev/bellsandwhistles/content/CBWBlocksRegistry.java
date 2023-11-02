@@ -14,7 +14,7 @@ import org.intellij.lang.annotations.Identifier;
 
 public class CBWBlocksRegistry {
 		public static final Block METAL_PILOT = registerBlock("metal_Pilot",
-				new Block(FabricBlockSettings.of(Material.METAL).strength(4f)), CBWItemGroup.BELLS_AND_WHISTLES_TAB);
+				new Block(FabricBlockSettings.of(Material.METAL).strength(4f)), CBWItemGroup.BELLSANDWHISTLESTAB);
 
 
 		private static Block registerBlock(String name, Block block, CreativeModeTab tab) {

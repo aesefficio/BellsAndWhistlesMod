@@ -1,6 +1,6 @@
 package com.sudolev.bellsandwhistles.content.block;
 
-import com.simibubi.create.content.equipment.wrench.IWrenchable;
+import com.simibubi.create.content.contraptions.wrench.IWrenchable;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.context.BlockPlaceContext;
@@ -17,7 +17,7 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 
 import java.util.stream.Stream;
 
-public class PilotBlock extends Block implements IWrenchable{
+public class PilotBlock extends Block implements IWrenchable {
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
     public PilotBlock(Properties properties) {
         super(properties);
