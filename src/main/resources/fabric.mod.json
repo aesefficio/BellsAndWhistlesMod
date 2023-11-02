@@ -16,6 +16,9 @@
   "entrypoints": {
     "main": [
       "com.sudolev.bellsandwhistles.BellsAndWhistles"
+    ],
+    "client": [
+      "com.sudolev.bellsandwhistles.BellsAndWhistlesClient"
     ]
   },
   "depends": {

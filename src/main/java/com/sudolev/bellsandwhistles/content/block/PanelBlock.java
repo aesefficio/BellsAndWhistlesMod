@@ -17,7 +17,7 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 
 public class PanelBlock extends Block {
     public static final DirectionProperty FACING = BlockStateProperties.FACING;
-
+net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap.INSTANCE.putBlock(Block, RenderLayer)
     protected static final int AABB_THICKNESS = 3;
 
     public PanelBlock(Properties pProperties) {
