@@ -77,9 +77,9 @@ public class PanelBlock extends Block {
 			case EAST:
 				return Block.box(0.0, 0.0, 0.0, 3.0, 16.0, 16.0);
 			case UP:
-				return Block.box(0.0, 13.0, 0.0, 16.0, 16.0, 16.0);
-			case DOWN:
 				return Block.box(0, 0, 0, 16, 3, 16);
+			case DOWN:
+				return Block.box(0.0, 13.0, 0.0, 16.0, 16.0, 16.0);
 		}
 	}
 
