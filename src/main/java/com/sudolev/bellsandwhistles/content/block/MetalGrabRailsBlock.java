@@ -1,7 +1,8 @@
 package com.sudolev.bellsandwhistles.content.block;
 
-import com.simibubi.create.content.contraptions.wrench.IWrenchable;
-import com.simibubi.create.content.curiosities.deco.MetalLadderBlock;
+import com.simibubi.create.content.decoration.MetalLadderBlock;
+import com.simibubi.create.content.equipment.wrench.IWrenchable;
+
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.state.BlockState;

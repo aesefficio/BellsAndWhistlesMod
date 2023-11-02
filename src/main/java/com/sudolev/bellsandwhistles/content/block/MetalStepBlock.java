@@ -1,7 +1,8 @@
 package com.sudolev.bellsandwhistles.content.block;
 
-import com.simibubi.create.content.contraptions.wrench.IWrenchable;
-import com.simibubi.create.content.curiosities.deco.MetalLadderBlock;
+import com.simibubi.create.content.decoration.MetalLadderBlock;
+import com.simibubi.create.content.equipment.wrench.IWrenchable;
+
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.level.BlockGetter;
@@ -49,7 +50,7 @@ public class MetalStepBlock extends MetalLadderBlock implements IWrenchable {
     }
     @Override
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
-        switch ((Direction)pState.getValue(FACING)) {
+        switch (pState.getValue(FACING)) {
             case NORTH:
                 return SHAPE;
             case SOUTH:

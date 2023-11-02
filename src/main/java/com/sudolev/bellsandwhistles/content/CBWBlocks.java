@@ -1,7 +1,7 @@
 package com.sudolev.bellsandwhistles.content;
 
-import com.simibubi.create.content.contraptions.base.CasingBlock;
-import com.simibubi.create.content.curiosities.deco.TrainTrapdoorBlock;
+import com.simibubi.create.content.decoration.TrainTrapdoorBlock;
+import com.simibubi.create.content.decoration.encasing.CasingBlock;
 import com.sudolev.bellsandwhistles.BellsAndWhistles;
 import com.sudolev.bellsandwhistles.content.block.HeadlightBlock;
 import com.sudolev.bellsandwhistles.content.block.MetalBogieStepsBlock;

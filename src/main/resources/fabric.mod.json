@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "id": "bellsandwhistles",
-  "version": "${version}",
+  "version": "0.4.1 ",
   "name": "Create: Bells & Whistles",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Create: Bells & Whistles is an add-on for the Create mod that focuses on the player experience, adding various new decorative and utility features.",
   "authors": [
     "sudolev"
   ],
   "contact": {
-    "sources": "https://github.com/Fabricators-of-Create/create-fabric-addon-template"
+    "sources": "https://github.com/sudolev/BellsAndWhistlesMod"
   },
-  "license": "CC0",
+  "license": "GPL-3.0",
   "icon": "assets/bellsandwhistles/icon.png",
   "environment": "*",
   "entrypoints": {
