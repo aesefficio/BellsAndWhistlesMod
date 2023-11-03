@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=east,waterlogged=false": {
+      "model": "bellsandwhistles:block/andesite_grab_rails",
+      "y": 90
+    },
+    "facing=east,waterlogged=true": {
+      "model": "bellsandwhistles:block/andesite_grab_rails",
+      "y": 90
+    },
+    "facing=north,waterlogged=false": {
+      "model": "bellsandwhistles:block/andesite_grab_rails"
+    },
+    "facing=north,waterlogged=true": {
+      "model": "bellsandwhistles:block/andesite_grab_rails"
+    },
+    "facing=south,waterlogged=false": {
+      "model": "bellsandwhistles:block/andesite_grab_rails",
+      "y": 180
+    },
+    "facing=south,waterlogged=true": {
+      "model": "bellsandwhistles:block/andesite_grab_rails",
+      "y": 180
+    },
+    "facing=west,waterlogged=false": {
+      "model": "bellsandwhistles:block/andesite_grab_rails",
+      "y": 270
+    },
+    "facing=west,waterlogged=true": {
+      "model": "bellsandwhistles:block/andesite_grab_rails",
+      "y": 270
+    }
+  }
+}

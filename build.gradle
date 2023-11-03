@@ -1,11 +1,8 @@
 plugins {
 	id 'fabric-loom' version '1.4-SNAPSHOT'
+	id 'maven-publish'
 	id "io.github.p03w.machete" version "1.+" // automatic jar compressing on build
-	id "maven-publish"
 }
-
-sourceCompatibility = JavaVersion.VERSION_17
-targetCompatibility = JavaVersion.VERSION_17
 
 version = project.mod_version
 group = project.maven_group
@@ -21,58 +18,49 @@ repositories {
 	maven { url = "https://maven.quiltmc.org/repository/release" } // Quilt Mappings
 	maven { url = "https://api.modrinth.com/maven" } // LazyDFU
 	maven { url = "https://maven.terraformersmc.com/releases/" } // Mod Menu
-	maven { url = "https://mvn.devos.one/#/snapshots/" } // Create, Porting Lib, Forge Tags, Milk Lib, Registrate
+	maven { url = "https://mvn.devos.one/snapshots/" } // Create, Porting Lib, Forge Tags, Milk Lib, Registrate
 	maven { url = "https://cursemaven.com" } // Forge Config API Port
 	maven { url = "https://maven.jamieswhiteshirt.com/libs-release" } // Reach Entity Attributes
 	maven { url = "https://jitpack.io/" } // Mixin Extras, Fabric ASM
 	maven { url = "https://maven.tterrag.com/" } // Flywheel
 }
 
-loom {
-    splitEnvironmentSourceSets()
-
-	mods {
-		"bellsandwhistles" {
-			sourceSet sourceSets.main
-			sourceSet sourceSets.client
-		}
-	}
-
-}
-
 dependencies {
 	// To change the versions see the gradle.properties file
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
-	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+	mappings(loom.layered {
+		it.mappings("org.quiltmc:quilt-mappings:${minecraft_version}+build.${qm_version}:intermediary-v2")
+		it.parchment("org.parchmentmc.data:parchment-${minecraft_version}:${parchment_version}@zip")
+		it.officialMojangMappings { nameSyntheticMembers = false }
+	})
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	modImplementation("snapshots.com.simibubi.create:create-fabric-${minecraft_version}:${create_version}")
+	modImplementation("com.simibubi.create:create-fabric-${minecraft_version}:${create_version}")
 
 	// Development QOL
 	modLocalRuntime("maven.modrinth:lazydfu:${lazydfu_version}")
 	modLocalRuntime("com.terraformersmc:modmenu:${modmenu_version}")
-
-	// Recipe Viewers - Create Fabric supports JEI, REI, and EMI.
-	// See root gradle.properties to choose which to use at runtime.
-	switch (recipe_viewer.toLowerCase(Locale.ROOT)) {
-		case "jei": modLocalRuntime("mezz.jei:jei-${minecraft_version}-fabric:${jei_version}"); break
-		case "rei": modLocalRuntime("me.shedaniel:RoughlyEnoughItems-fabric:${rei_version}"); break
-		case "emi": modLocalRuntime("dev.emi:emi:${emi_version}"); break
-		case "disabled": break
-		default: println("Unknown recipe viewer specified: ${recipe_viewer}. Must be JEI, REI, EMI, or disabled.")
-	}
 }
 
 processResources {
-	inputs.property "version", project.version
+	// require dependencies to be the version compiled against or newer
+	Map<String, String> properties = new HashMap<>()
+	properties.put("version", version)
+	properties.put("loader_version", loader_version)
+	properties.put("fabric_version", fabric_version)
+	properties.put("create_version", create_version)
+	properties.put("minecraft_version", minecraft_version)
+
+	properties.forEach((k, v) -> inputs.property(k, v))
 
 	filesMatching("fabric.mod.json") {
-		expand "version": project.version
+		expand properties
 	}
 }
+
 
 tasks.withType(JavaCompile).configureEach {
 	it.options.release = 17
@@ -94,6 +82,11 @@ jar {
 	}
 }
 
+machete {
+	// disable machete locally for faster builds
+	enabled != null
+}
+
 // configure the maven publication
 publishing {
 	publications {
@@ -108,16 +101,5 @@ publishing {
 		// Notice: This block does NOT have the same function as the block in the top level.
 		// The repositories here will be used for publishing your artifact, not for
 		// retrieving dependencies.
-	}
-}
-
-machete {
-	// disable machete locally for faster builds
-	enabled = null
-}
-
-jar {
-	from("LICENSE") {
-		rename { "${it}_${project.archivesBaseName}" }
 	}
 }

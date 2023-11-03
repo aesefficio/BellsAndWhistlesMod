@@ -1,0 +1,19 @@
+{
+  "type":"crafting_shaped",
+  "category": "pilots",
+  "group": "pilots",
+  "pattern": [
+    " I ",
+    "# #",
+    "III"
+  ],
+  "key":{
+    "#":{
+      "item":"create:andesite_alloy"
+    },
+    "I":{
+      "item":"andesite"
+    }
+  },
+  "result":{"item":"bellsandwhistles:andesite_pilot"}
+}

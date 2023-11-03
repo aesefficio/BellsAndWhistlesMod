@@ -1,30 +1,33 @@
 {
 	"schemaVersion": 1,
 	"id": "bellsandwhistles",
-	"version": "${version}",
+	"version": "0.4.1 ",
 	"name": "Create: Bells & Whistles",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Create: Bells & Whistles is an add-on for the Create mod that focuses on the player experience, adding various new decorative and utility features.",
 	"authors": [
 		"sudolev"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/bellsandwhistles",
+		"issues": "https://github.com/sudolev/BellsAndWhistlesMod/issues",
+		"email": "i@sudolev.com",
+		"sources": "https://github.com/sudolev/BellsAndWhistlesMod"
 	},
 	"license": "GPL-3.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/bellsandwhistles/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.sudolev.BellsAndWhistles"
+			"com.sudolev.bellsandwhistles.BellsAndWhistles"
 		],
 		"client": [
-			"com.sudolev.BellsAndWhistles"
+			"com.sudolev.bellsandwhistles.BellsAndWhistlesClient"
 		]
 	},
 	"depends": {
-		"fabricloader": ">=0.14.22",
-		"minecraft": "~1.20.2",
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.20.1",
+		"create": "${create_version}",
 		"java": ">=17",
 		"fabric-api": "*"
 	},
