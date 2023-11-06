@@ -9,10 +9,10 @@
   ],
   "key":{
     "#":{
-      "item":"polished_cut_deepslate"
+      "item":"create:polished_cut_deepslate"
     },
     "I":{
-      "item":"polished_cut_deepslate_stairs"
+      "item":"create:polished_cut_deepslate_stairs"
     }
   },
   "result":{"item":"bellsandwhistles:polished_deepslate_pilot"}
