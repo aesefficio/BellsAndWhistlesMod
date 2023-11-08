@@ -8,6 +8,9 @@
     "sudolev"
   ],
   "contact": {
+    "homepage": "https://modrinth.com/mod/bellsandwhistles",
+    "issues": "https://github.com/sudolev/BellsAndWhistlesMod/issues",
+    "email": "i@sudolev.com",
     "sources": "https://github.com/sudolev/BellsAndWhistlesMod"
   },
   "license": "GPL-3.0",
