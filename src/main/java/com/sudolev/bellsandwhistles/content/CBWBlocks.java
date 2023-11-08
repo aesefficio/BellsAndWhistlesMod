@@ -5,6 +5,7 @@ import com.simibubi.create.content.decoration.encasing.CasingBlock;
 import com.sudolev.bellsandwhistles.BellsAndWhistles;
 import com.sudolev.bellsandwhistles.content.block.*;
 import com.tterrag.registrate.builders.BlockBuilder;
+import com.tterrag.registrate.fabric.RegistryObject;
 import com.tterrag.registrate.util.nullness.NonNullFunction;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.core.Registry;
@@ -103,15 +104,18 @@ public class CBWBlocks {
 	public static final Block POLISHED_VERIDIUM_PILOT = registerBlock("polished_veridium_pilot",
 			( new PilotBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion())));
 
+
 	private static Block registerBlock(String name, Block block) {
 		registerBlockItem(name, block);
-		return Registry.register(Registries.BLOCK, new ResourceLocation(BellsAndWhistles.ID, name), block);
+		return RegistryObject(Registries.BLOCK, new ResourceLocation(BellsAndWhistles.ID, name), block);
 	}
 
 	private static Item registerBlockItem(String name, Block block) {
-		return Registry.register(Registries.ITEM, new ResourceLocation(BellsAndWhistles.ID, name),
+		return Registry.r(Registries.ITEM, new ResourceLocation(BellsAndWhistles.ID, name),
 				new BlockItem(block, new FabricItemSettings()));
 	}
+
+
 		public static void registerModBlocks() {
 			BellsAndWhistles.LOGGER.debug("Registering ModBlocks for " + BellsAndWhistles.ID);
 		}
