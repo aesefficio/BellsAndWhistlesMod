@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "tag": "forge:ingots/copper"
+    "item": "minecraft:copper_ingot"
   },
   "result": "bellsandwhistles:copper_door_step",
   "count": 6

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "tag": "forge:ingots/copper"
+      "item": "minecraft:copper_ingot"
     },
     "I": {
-      "tag": "forge:nuggets/copper"
+      "item": "create:copper_nugget"
     }
   },
   "result": {
