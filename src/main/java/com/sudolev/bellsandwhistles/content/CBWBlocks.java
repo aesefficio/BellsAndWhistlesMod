@@ -5,11 +5,10 @@ import com.simibubi.create.content.decoration.encasing.CasingBlock;
 import com.sudolev.bellsandwhistles.BellsAndWhistles;
 import com.sudolev.bellsandwhistles.content.block.*;
 import com.tterrag.registrate.builders.BlockBuilder;
-import com.tterrag.registrate.fabric.RegistryObject;
 import com.tterrag.registrate.util.nullness.NonNullFunction;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.core.Registry;
-import net.minecraft.core.registries.Registries;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.BlockItem;
@@ -107,11 +106,11 @@ public class CBWBlocks {
 
 	private static Block registerBlock(String name, Block block) {
 		registerBlockItem(name, block);
-		return RegistryObject(Registries.BLOCK, new ResourceLocation(BellsAndWhistles.ID, name), block);
+		return Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(BellsAndWhistles.ID, name), block);
 	}
 
 	private static Item registerBlockItem(String name, Block block) {
-		return Registry.r(Registries.ITEM, new ResourceLocation(BellsAndWhistles.ID, name),
+		return Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(BellsAndWhistles.ID, name),
 				new BlockItem(block, new FabricItemSettings()));
 	}
 
