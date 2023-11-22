@@ -2,14 +2,19 @@ package com.sudolev.bellsandwhistles.content;
 
 import com.sudolev.bellsandwhistles.BellsAndWhistles;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.minecraft.core.Registry;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 
 public class CBWItemGroup {
-	public static final CreativeModeTab BELLS_AND_WHISTLES_TAB = FabricItemGroup.builder()
-			.icon(() -> new ItemStack(CBWBlocks.METAL_PILOT))
+	public static final CreativeModeTab BELLS_AND_WHISTLES_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
+		new ResourceLocation(BellsAndWhistles.ID, "bellsandwhistlestab"),
+		FabricItemGroup.builder()
 			.title(Component.translatable("itemGroup.bellsandwhistles.bellsandwhistlestab"))
+			.icon(() -> new ItemStack(CBWBlocks.METAL_PILOT))
 			.displayItems((pParameters, pOutput) -> {
 				pOutput.accept(CBWBlocks.ANDESITE_BOGIE_STEPS);
 				pOutput.accept(CBWBlocks.BRASS_BOGIE_STEPS);
@@ -48,8 +53,7 @@ public class CBWItemGroup {
 				pOutput.accept(CBWBlocks.POLISHED_OCHRUM_PILOT);
 				pOutput.accept(CBWBlocks.POLISHED_VERIDIUM_PILOT);
 				pOutput.accept(CBWBlocks.POLISHED_ASURINE_PILOT);
-			})
-			.build();
+			}).build());
 
 	public static void registerItemGroups() {
 		BellsAndWhistles.LOGGER.info("Registering Item Groups for " + BellsAndWhistles.ID);
