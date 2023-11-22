@@ -4,13 +4,10 @@ import com.simibubi.create.content.decoration.TrainTrapdoorBlock;
 import com.simibubi.create.content.decoration.encasing.CasingBlock;
 import com.sudolev.bellsandwhistles.BellsAndWhistles;
 import com.sudolev.bellsandwhistles.content.block.*;
-import com.tterrag.registrate.builders.BlockBuilder;
-import com.tterrag.registrate.util.nullness.NonNullFunction;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -19,9 +16,6 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 
 public class CBWBlocks {
-	public static <T extends Block, P> NonNullFunction<BlockBuilder<T, P>, BlockBuilder<T, P>> axeOnly() {
-		return b -> b.tag(BlockTags.MINEABLE_WITH_AXE);
-	}
 	public static final Block ANDESITE_GRAB_RAILS = registerBlock("andesite_grab_rails",
 			(new MetalGrabRailsBlock(BlockBehaviour.Properties.copy(Blocks.LADDER).sound(SoundType.METAL).noOcclusion())));
 	public static final Block BRASS_GRAB_RAILS = registerBlock("brass_grab_rails",
@@ -114,9 +108,7 @@ public class CBWBlocks {
 				new BlockItem(block, new FabricItemSettings()));
 	}
 
-
-		public static void registerModBlocks() {
-			BellsAndWhistles.LOGGER.debug("Registering ModBlocks for " + BellsAndWhistles.ID);
-		}
-
+	public static void registerModBlocks() {
+		BellsAndWhistles.LOGGER.debug("Registering ModBlocks for " + BellsAndWhistles.ID);
+	}
 }

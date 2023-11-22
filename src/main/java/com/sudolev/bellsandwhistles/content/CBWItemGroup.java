@@ -7,7 +7,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 
 public class CBWItemGroup {
-	private static final CreativeModeTab BELLSANDWHISTLESTAB = FabricItemGroup.builder()
+	public static final CreativeModeTab BELLS_AND_WHISTLES_TAB = FabricItemGroup.builder()
 			.icon(() -> new ItemStack(CBWBlocks.METAL_PILOT))
 			.title(Component.translatable("itemGroup.bellsandwhistles.bellsandwhistlestab"))
 			.displayItems((pParameters, pOutput) -> {
