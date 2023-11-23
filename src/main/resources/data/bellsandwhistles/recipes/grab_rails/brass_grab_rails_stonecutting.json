@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "tag": "forge:ingots/brass"
+    "item": "create:brass_ingot"
   },
   "result": "bellsandwhistles:brass_grab_rails",
   "count": 4
