@@ -18,9 +18,8 @@ https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/0cc7160d-08c8-4
 <h3>Create: Bells & Whistles is an add-on for the Create mod that focuses on the player experience, adding various new decorative and utility features.</h3><br>
    </div>
 <img src="https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/d42cad7f-29f4-4114-9048-236dcc4a01b3">
-<details>
-<summary><h3>Current list of features:</h3></summary>
 <br>
+<h2>Current List of Features:</h2>
 <ul>
    <li>Train Pilots
       <ul>
@@ -51,7 +50,6 @@ https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/0cc7160d-08c8-4
    </ul> 
    <li>Station Platform Block
 </ul> 
-</details>
 
 # Credits
 
