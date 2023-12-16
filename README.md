@@ -67,5 +67,10 @@ https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/0cc7160d-08c8-4
 <br><br>
    
 Report Issues <a href="https://github.com/sudolev/BellsAndWhistlesMod/issues">here</a></h3>
+
+<b>This project is licensed under <a href="https://www.gnu.org/licenses/gpl-3.0.en.html#license-text" target="_blank">GPL-3.0</a>
+
+© 2023 Sudolev</b>
+
 </div>
 <!--https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/154e2b0b-5df7-4e7e-83c2-0d08a36e535d-->
