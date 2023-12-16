@@ -57,7 +57,7 @@ https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/0cc7160d-08c8-4
 
 **Thanks to [@avirtual777](https://github.com/avirtual777) for translating Create: Bells and Whistles to Mainland Chinese.**
 
-**Thanks to [@krashd](https://github.com/krashd) for his code contributions.**
+**Thanks to [@krashd](https://github.com/krashd) for contribuing asset fixes.**
 
 ---
 
