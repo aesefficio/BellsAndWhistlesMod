@@ -1,0 +1,42 @@
+modLoader = "javafml"
+loaderVersion = "[${forge_version},)"
+license = "GPL-3.0"
+issueTrackerURL = "https://github.com/sudolev/CreatebellsandwhistlesMod/issues"
+
+[[mods]]
+modId = "bellsandwhistles"
+version = "${version}"
+displayName = "Create: Bells & Whistles"
+# https://docs.neoforged.net/docs/misc/updatechecker/
+#updateJSONURL="https://change.me.example.invalid/updates.json"
+displayURL = "https://github.com/sudocooperativesystems/BellsAndWhistlesMod"
+logoFile="icon.png"
+credits = "rdh"
+authors = "sudolev"
+description = '''
+A Create addon that focuses on the player experience, adding various new decorative and utility features.
+'''
+
+[[dependencies.bellsandwhistles]]
+modId = "forge"
+mandatory = true
+versionRange = "[${forge_version},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.bellsandwhistles]]
+modId = "minecraft"
+mandatory = true
+versionRange = "${minecraft_version}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.bellsandwhistles]]
+modId = "create"
+mandatory = true
+versionRange = "[${create_forge_version},)"
+ordering = "NONE"
+side = "BOTH"
+
+[modproperties.bellsandwhistles]
+catalogueImageIcon="icon.png"

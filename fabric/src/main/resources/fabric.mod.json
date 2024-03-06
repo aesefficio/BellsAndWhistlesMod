@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "interiors",
+  "version": "${version}",
+  "name": "Create: Bells & Whistles",
+  "description": "A Create addon that focuses on the player experience, adding various new decorative and utility features.",
+  "authors": [ "sudolev", "rdh" ],
+  "contact": {
+    "homepage": "https://github.com/sudocooperativesystems/BellsAndWhistlesMod",
+    "sources": "https://github.com/sudocooperativesystems/BellsAndWhistlesMod",
+    "issues": "https://github.com/sudocooperativesystems/BellsAndWhistlesMod/issues"
+  },
+  "license": "GPL-3.0",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.sudolev.bellsandwhistles.fabric.BellsAndWhistlesFabric"
+    ],
+    "fabric-datagen": [
+      "com.sudolev.bellsandwhistles.fabric.BWDatagen"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "minecraft": "${minecraft_version}",
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": ">=${fabric_api_version}",
+    "create": ">=${create_fabric_version}"
+  },
+  "custom": {
+    "modmenu": {
+      "parent": {
+        "id": "create"
+      },
+      "links": {
+        "Modrinth": "https://modrinth.com/mod/bellsandwhistles",
+        "CurseForge": "https://curseforge.com/minecraft/mc-mods/bellsandwhistles"
+      }
+    }
+  }
+}
