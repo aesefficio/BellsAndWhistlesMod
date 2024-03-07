@@ -20,8 +20,8 @@ import com.sudolev.bellsandwhistles.content.registry.BWBlocks;
 
 public class BWTabImpl {
 	public static final TabInfo TAB = register("main", FabricItemGroup.builder()
-		.title(Component.translatable("itemGroup.interiors"))
-		.icon(() -> BWBlocks.CHAIRS.get(DyeColor.RED).asItem().getDefaultInstance())
+		.title(Component.translatable("itemGroup.bellsandwhistles"))
+		.icon(() -> BWBlocks.HEADLIGHT.get().asItem().getDefaultInstance())
 		.displayItems((parameters, output) -> BellsAndWhistles.REGISTRATE
 			.getAll(Registries.BLOCK).stream()
 			.map(entry -> entry.get().asItem())

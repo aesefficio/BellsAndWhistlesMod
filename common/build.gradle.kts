@@ -28,11 +28,11 @@ dependencies {
 }
 
 tasks.processResources {
-	// must be part of primary mod to be findable
-	exclude("resourcepacks/")
-
 	// don't add development or to-do files into built jar
 	exclude("**/*.bbmodel", "**/*.lnk", "**/*.xcf", "**/*.md", "**/*.txt", "**/*.blend", "**/*.blend1")
+
+	// exclude create assets
+	exclude("src/main/resources/assets/create/**")
 }
 
 sourceSets.main {

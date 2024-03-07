@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "face=ceiling,facing=east": {
+      "model": "bellsandwhistles:block/headlight",
+      "y": 90
+    },
+    "face=ceiling,facing=north": {
+      "model": "bellsandwhistles:block/headlight"
+    },
+    "face=ceiling,facing=south": {
+      "model": "bellsandwhistles:block/headlight",
+      "y": 180
+    },
+    "face=ceiling,facing=west": {
+      "model": "bellsandwhistles:block/headlight",
+      "y": 270
+    },
+    "face=floor,facing=east": {
+      "model": "bellsandwhistles:block/headlight",
+      "y": 90
+    },
+    "face=floor,facing=north": {
+      "model": "bellsandwhistles:block/headlight"
+    },
+    "face=floor,facing=south": {
+      "model": "bellsandwhistles:block/headlight",
+      "y": 180
+    },
+    "face=floor,facing=west": {
+      "model": "bellsandwhistles:block/headlight",
+      "y": 270
+    },
+    "face=wall,facing=east": {
+      "model": "bellsandwhistles:block/headlight",
+      "y": 90
+    },
+    "face=wall,facing=north": {
+      "model": "bellsandwhistles:block/headlight"
+    },
+    "face=wall,facing=south": {
+      "model": "bellsandwhistles:block/headlight",
+      "y": 180
+    },
+    "face=wall,facing=west": {
+      "model": "bellsandwhistles:block/headlight",
+      "y": 270
+    }
+  }
+}

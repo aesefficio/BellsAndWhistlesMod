@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "interiors",
+  "id": "bellsandwhistles",
   "version": "${version}",
   "name": "Create: Bells & Whistles",
   "description": "A Create addon that focuses on the player experience, adding various new decorative and utility features.",

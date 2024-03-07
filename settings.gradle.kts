@@ -13,4 +13,4 @@ include("fabric")
 include("forge")
 
 // no colon because gradle
-rootProject.name = "Create Bells & Whistles"
+rootProject.name = "Create Bells And Whistles"

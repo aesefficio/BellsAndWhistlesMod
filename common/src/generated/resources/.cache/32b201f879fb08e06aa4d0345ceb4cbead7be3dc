@@ -1,0 +1,8 @@
+// 1.20.1	2024-03-06T19:17:10.107365	Create: Bells & Whistles/Registrate Provider for bellsandwhistles [Recipes, Advancements, Loot Tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), Blockstates, Item models, Lang (en_us/en_ud)]
+7e42449a094fdcbdc9171f41b2b63b6f46f459f5 assets/bellsandwhistles/lang/en_us.json
+32dc6c960b84a0cab38b6d9cff70eaa4d3d8ce3e assets/bellsandwhistles/models/block/headlight.json
+bf76332a9eb6ef28ad1d9e134d6011ce40ab2663 assets/bellsandwhistles/blockstates/headlight.json
+b3fa3e604e53209b2b4e0384fb78d98ef0a45b78 assets/bellsandwhistles/models/item/headlight.json
+5795b32619e444e292e4d0874e31401e9a1b9a85 assets/bellsandwhistles/lang/en_ud.json
+57d48c3e6647efcdf044191601098a63b0e3e536 data/bellsandwhistles/loot_tables/blocks/headlight.json
+eaa31c5fdcc57970631ed26ae7bd57bd0999943a data/minecraft/tags/blocks/mineable/pickaxe.json

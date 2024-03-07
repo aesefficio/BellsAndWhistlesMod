@@ -29,7 +29,7 @@ public class BWDatagen implements DataGeneratorEntrypoint {
 
 		BellsAndWhistles.REGISTRATE.setupDatagen(gen.createPack(), helper);
 
-		provideDefaultLang("tooltips");
+//		provideDefaultLang("tooltips");
 	}
 
 	@SuppressWarnings("SameParameterValue")
