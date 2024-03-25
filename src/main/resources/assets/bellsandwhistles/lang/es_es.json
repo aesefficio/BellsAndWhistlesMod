@@ -17,8 +17,6 @@
   "block.bellsandwhistles.corrugated_metro_panel": "Panel de metro corrugado",
   "block.bellsandwhistles.metro_window": "Ventana de metro",
   "block.bellsandwhistles.metro_trapdoor": "Trampilla de metro",
-
-
   "block.bellsandwhistles.metal_pilot": "Quitapiedras de metal",
   "block.bellsandwhistles.andesite_pilot": "Quitapiedras de andesita",
   "block.bellsandwhistles.brass_pilot": "Quitapiedras de latón",
@@ -39,5 +37,4 @@
   "block.bellsandwhistles.polished_veridium_pilot": "Quitapiedras de veridio pulido",
   "itemGroup.bellsandwhistlestab": "Bells & Whistles",
   "creativetab.bellsandwhistlestab": "Bells & Whistles"
-
 }

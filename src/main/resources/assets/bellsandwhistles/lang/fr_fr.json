@@ -17,8 +17,6 @@
   "block.bellsandwhistles.corrugated_metro_panel": "Panneau de métro ondulé",
   "block.bellsandwhistles.metro_window": "Vitre de métro",
   "block.bellsandwhistles.metro_trapdoor": "Trappe de métro",
-
-
   "block.bellsandwhistles.metal_pilot": "Chasse-corps en métal",
   "block.bellsandwhistles.andesite_pilot": "Chasse-corps en andésite",
   "block.bellsandwhistles.brass_pilot": "Chasse-corps en laiton",
@@ -39,5 +37,4 @@
   "block.bellsandwhistles.polished_veridium_pilot": "Chasse-corps en veridium poli",
   "itemGroup.bellsandwhistlestab": "Bells & Whistles",
   "creativetab.bellsandwhistlestab": "Bells & Whistles"
-
 }
