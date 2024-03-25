@@ -5,7 +5,17 @@
   "block.bellsandwhistles.andesite_bogie_steps": "안산암 단계",
   "block.bellsandwhistles.brass_bogie_steps": "황동 단계",
   "block.bellsandwhistles.copper_bogie_steps": "구리 단계",
+
+
+
+
+
   "block.bellsandwhistles.station_platform": "기차 플랫폼",
+
+
+
+
+
 
   "block.bellsandwhistles.metal_pilot": "금속 배장기",
   "block.bellsandwhistles.andesite_pilot": "안산암 배장기",
@@ -27,5 +37,4 @@
   "block.bellsandwhistles.polished_veridium_pilot": "윤나는 심록암 배장기",
   "itemGroup.bellsandwhistlestab": "Bells & Whistles",
   "creativetab.bellsandwhistlestab": "Bells & Whistles"
-
 }

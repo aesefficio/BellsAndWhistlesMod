@@ -5,8 +5,6 @@
   "block.bellsandwhistles.andesite_bogie_steps": "Andesittrapp",
   "block.bellsandwhistles.brass_bogie_steps": "Mässingtrapp",
   "block.bellsandwhistles.copper_bogie_steps": "Koppartrapp",
-
-
   "block.bellsandwhistles.andesite_door_step": "Andesittrappsteg",
   "block.bellsandwhistles.brass_door_step": "Mässingtrappsteg",
   "block.bellsandwhistles.copper_door_step": "Koppartrappsteg",
@@ -19,7 +17,6 @@
   "block.bellsandwhistles.corrugated_metro_panel": "Korrugerad metropanel",
   "block.bellsandwhistles.metro_window": "Metrofönster",
   "block.bellsandwhistles.metro_trapdoor": "Metrolucka",
-
   "block.bellsandwhistles.metal_pilot": "Kofångare av Metall",
   "block.bellsandwhistles.andesite_pilot": "Kofångare av Andesit",
   "block.bellsandwhistles.brass_pilot": "Kofångare av Mässing",
@@ -40,5 +37,4 @@
   "block.bellsandwhistles.polished_veridium_pilot": "Kofångare av Polerad Veridium",
   "itemGroup.bellsandwhistlestab": "Bells & Whistles",
   "creativetab.bellsandwhistlestab": "Bells & Whistles"
-
 }

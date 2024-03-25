@@ -1,5 +1,16 @@
-# Disable autocrlf on generated files, they always generate with LF
-# Add any extra files or paths here to make git stop saying they
-# are changed when only line endings change.
-src/generated/**/.cache/cache text eol=lf
-src/generated/**/*.json text eol=lf
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout.
+# *.c text
+# *.h text
+
+# Declare files that will always have CRLF line endings on checkout.
+# *.sln text eol=crlf
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.pdn binary
+*.webp binary
+
