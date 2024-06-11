@@ -1,15 +1,16 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "bellsandwhistles:metro_casing"
-    },
-    {
-      "tag": "fabric:glass"
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+        {
+            "tag": "c:glass_panes"
+        },
+        {
+            "item": "bellsandwhistles:metro_casing"
+        }
+    ],
+    "result": {
+        "item": "bellsandwhistles:metro_window",
+        "count": 6
     }
-  ],
-  "result": {
-    "item": "bellsandwhistles:metro_window",
-    "count": 6
-  }
 }
