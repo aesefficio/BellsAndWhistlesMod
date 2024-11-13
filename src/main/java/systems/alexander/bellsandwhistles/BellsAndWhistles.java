@@ -46,6 +46,22 @@ public class BellsAndWhistles {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ANDESITE_BOGIE_STEPS.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ANDESITE_DOOR_STEP.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ANDESITE_GRAB_RAILS.get(), RenderType.cutout());
+
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.BRASS_BOGIE_STEPS.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.BRASS_DOOR_STEP.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.BRASS_GRAB_RAILS.get(), RenderType.cutout());
+
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.COPPER_BOGIE_STEPS.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.COPPER_DOOR_STEP.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.COPPER_GRAB_RAILS.get(), RenderType.cutout());
+
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.HEADLIGHT.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ORNATE_IRON_TRAPDOOR.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.METRO_WINDOW.get(), RenderType.cutout());
+
         }
     }
 }
