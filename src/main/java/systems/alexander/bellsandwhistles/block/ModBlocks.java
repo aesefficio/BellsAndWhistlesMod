@@ -16,7 +16,6 @@ import com.tterrag.registrate.builders.BlockBuilder;
 import com.tterrag.registrate.util.entry.BlockEntry;
 import com.tterrag.registrate.util.nullness.NonNullUnaryOperator;
 import net.minecraft.client.renderer.RenderType;
-import net.minecraft.data.CachedOutput;
 import net.minecraft.data.loot.BlockLoot;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.tags.ItemTags;
