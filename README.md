@@ -4,7 +4,7 @@ https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/0cc7160d-08c8-4
 <h1 align="center"><img src="https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/5fc70d01-c430-4de1-b547-691e032d75e1" width=650>
 
 <div align="center">
-   <img src="https://img.shields.io/badge/available%20for-1.19.2‒1.20.2-992333" alt="available for 1.19.2-1.20.2">
+   <img src="https://img.shields.io/badge/available%20for-1.18.2‒1.20.2-992333" alt="available for 1.18.2-1.20.2">
    <img src="https://img.shields.io/badge/modloaders-Forge%20&%20NeoForge,%20Fabric%20&%20Quilt-992333" alt="modloaders forge/neoforge">
    <img alt="required on client & server" src="https://img.shields.io/badge/required%20on-client%20%26%20server-992333">
 
@@ -59,6 +59,8 @@ https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/0cc7160d-08c8-4
 
 **Thanks to [@krashd](https://github.com/krashd) for contribuing asset fixes.**
 
+**Thanks to [@RenardFute](https://github.com/RenardFute) for porting Bells & Whistles to 1.18.2.**
+
 ---
 
 <div align="center">
@@ -70,7 +72,9 @@ Report Issues <a href="https://github.com/sudolev/BellsAndWhistlesMod/issues">he
 
 <b>This project is licensed under <a href="https://www.gnu.org/licenses/gpl-3.0.en.html#license-text" target="_blank">GPL-3.0</a>
 
-© 2023 Sudolev</b>
+</b>
 
 </div>
 <!--https://github.com/alexandsr/BellsAndWhistlesMod/assets/61996958/154e2b0b-5df7-4e7e-83c2-0d08a36e535d-->
+
+[![Bells and Whistles Banner](https://i.ibb.co/SVwFkB8/bellsandwhistles.png)](https://url-shortener.curseforge.com/FLd2G)

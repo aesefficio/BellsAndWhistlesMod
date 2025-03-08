@@ -16,8 +16,7 @@
   "block.bellsandwhistles.metro_panel": "Панель состава",
   "block.bellsandwhistles.corrugated_metro_panel": "Гофрированная панель состава",
   "block.bellsandwhistles.metro_window": "Окно подвижного состава",
-  "block.bellsandwhistles.metro_trapdoor": "Люк подвижного состава",
-  "block.bellsandwhistles.metal_pilot": "Железный путеочиститель",
+  "block.bellsandwhistles.metro_trapdoor": "Люк подвижного состава",  "block.bellsandwhistles.metal_pilot": "Железный путеочиститель",
   "block.bellsandwhistles.andesite_pilot": "Андезитовый путеочиститель",
   "block.bellsandwhistles.brass_pilot": "Латунный путеочиститель",
   "block.bellsandwhistles.copper_pilot": "Медный путеочиститель",
@@ -35,6 +34,8 @@
   "block.bellsandwhistles.polished_scoria_pilot": "Путеочиститель из полированного пепла",
   "block.bellsandwhistles.polished_tuff_pilot": "Путеочиститель из полированного туфа",
   "block.bellsandwhistles.polished_veridium_pilot": "Путеочиститель из полированного веридия",
-  "itemGroup.bellsandwhistlestab": "Bells & Whistles",
-  "creativetab.bellsandwhistlestab": "Bells & Whistles"
+  "itemGroup.bellsandwhistlestab": "Create: Прибамбасы",
+  "creativetab.bellsandwhistlestab": "Create: Прибамбасы",
+
+  "_": "Над переводом работали VGamerGroup и BesrezenUs"
 }
