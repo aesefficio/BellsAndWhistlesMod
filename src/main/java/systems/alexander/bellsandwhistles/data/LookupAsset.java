@@ -2,11 +2,11 @@ package systems.alexander.bellsandwhistles.data;
 
 import com.tterrag.registrate.providers.DataGenContext;
 import com.tterrag.registrate.providers.RegistrateBlockstateProvider;
-import net.minecraftforge.client.model.generators.ModelFile;
+import net.neoforged.neoforge.client.model.generators.ModelFile;
 
 public class LookupAsset {
     public static ModelFile partialBaseModel(DataGenContext<?, ?> ctx, RegistrateBlockstateProvider prov,
-                                             String suffix) {
+                                                                                            String suffix) {
         String string = "/block";
         String location;
 

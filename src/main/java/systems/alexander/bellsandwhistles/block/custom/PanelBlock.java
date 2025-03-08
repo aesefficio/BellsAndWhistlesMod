@@ -1,8 +1,6 @@
 package systems.alexander.bellsandwhistles.block.custom;
 
-import com.simibubi.create.AllBlocks;
 import com.simibubi.create.AllShapes;
-import com.simibubi.create.content.decoration.copycat.CopycatBlockEntity;
 import com.simibubi.create.content.decoration.copycat.CopycatPanelBlock;
 import com.simibubi.create.content.decoration.copycat.CopycatSpecialCases;
 import net.createmod.catnip.placement.IPlacementHelper;
@@ -28,8 +26,10 @@ import net.minecraft.world.level.block.state.properties.Half;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
+import systems.alexander.bellsandwhistles.block.ModBlocks;
 
 import java.util.List;
+import java.util.Objects;
 import java.util.function.Predicate;
 
 public class PanelBlock extends Block {
@@ -121,33 +121,21 @@ public class PanelBlock extends Block {
 
     @MethodsReturnNonnullByDefault
     private static class PlacementHelper implements IPlacementHelper {
-        @Override
+        private PlacementHelper() {
+        }
+
         public Predicate<ItemStack> getItemPredicate() {
-            return AllBlocks.COPYCAT_PANEL::isIn;
+            return (itemStack) -> itemStack.getItem() == ModBlocks.METRO_PANEL.asItem();
         }
 
-        @Override
+
         public Predicate<BlockState> getStatePredicate() {
-            return AllBlocks.COPYCAT_PANEL::has;
+            return (blockState) -> blockState.is(ModBlocks.METRO_PANEL);
         }
 
-        @Override
-        public PlacementOffset getOffset(Player player, Level world, BlockState state, BlockPos pos,
-                                         BlockHitResult ray) {
-            List<Direction> directions = IPlacementHelper.orderedByDistanceExceptAxis(pos, ray.getLocation(),
-                    state.getValue(FACING)
-                            .getAxis(),
-                    dir -> world.getBlockState(pos.relative(dir))
-                            .canBeReplaced());
-
-            if (directions.isEmpty())
-                return PlacementOffset.fail();
-            else {
-                return PlacementOffset.success(pos.relative(directions.get(0)),
-                        s -> s.setValue(FACING, state.getValue(FACING)));
-            }
+        public PlacementOffset getOffset(Player player, Level world, BlockState state, BlockPos pos, BlockHitResult ray) {
+            List<Direction> directions = IPlacementHelper.orderedByDistanceExceptAxis(pos, ray.getLocation(), ((Direction)state.getValue(CopycatPanelBlock.FACING)).getAxis(), (dir) -> world.getBlockState(pos.relative(dir)).canBeReplaced());
+            return directions.isEmpty() ? PlacementOffset.fail() : PlacementOffset.success(pos.relative((Direction)directions.get(0)), (s) -> (BlockState)s.setValue(CopycatPanelBlock.FACING, (Direction)state.getValue(CopycatPanelBlock.FACING)));
         }
     }
-
-
-}
+    }
