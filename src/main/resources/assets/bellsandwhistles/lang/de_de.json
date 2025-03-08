@@ -5,7 +5,6 @@
   "block.bellsandwhistles.andesite_bogie_steps": "Andesit-Stufen",
   "block.bellsandwhistles.brass_bogie_steps": "Messing-Stufen",
   "block.bellsandwhistles.copper_bogie_steps": "Kupfer-Stufen",
-
   "block.bellsandwhistles.andesite_door_step": "Andesit-Türschwelle",
   "block.bellsandwhistles.brass_door_step": "Messing-Türschwelle",
   "block.bellsandwhistles.copper_door_step": "Kupfer-Türschwelle",
@@ -18,7 +17,6 @@
   "block.bellsandwhistles.corrugated_metro_panel": "Gewelltes Metropaneel",
   "block.bellsandwhistles.metro_window": "Metro-Fenster",
   "block.bellsandwhistles.metro_trapdoor": "Metro-Falltür",
-
   "block.bellsandwhistles.metal_pilot": "Schienenräumer aus Metall",
   "block.bellsandwhistles.andesite_pilot": "Schienenräumer aus Andesit",
   "block.bellsandwhistles.brass_pilot": "Schienenräumer aus Messing",
@@ -39,5 +37,4 @@
   "block.bellsandwhistles.polished_veridium_pilot": "Schienenräumer aus poliertem Veridium",
   "itemGroup.bellsandwhistlestab": "Bells & Whistles",
   "creativetab.bellsandwhistlestab": "Bells & Whistles"
-
 }
