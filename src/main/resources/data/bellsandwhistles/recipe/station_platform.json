@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    {
+      "item": "minecraft:smooth_stone"
+    }
+  ],
+  "result":{"id": "bellsandwhistles:station_platform",
+    "count": 2
+  }
+}

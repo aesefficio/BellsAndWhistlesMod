@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bellsandwhistles:metro_casing"
+    },
+    {
+      "tag": "c:glass"
+    }
+  ],
+  "result":{"id": "bellsandwhistles:metro_window",
+    "count": 6
+  }
+}

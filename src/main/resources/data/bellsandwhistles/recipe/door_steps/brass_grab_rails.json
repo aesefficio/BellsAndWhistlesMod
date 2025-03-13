@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "misc",
+  "pattern": [
+    "#I#"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:ingots/brass"
+    },
+    "I": {
+      "tag": "c:nuggets/brass"
+    }
+  },
+  "result":{"id": "bellsandwhistles:brass_door_step",
+    "count": 8
+  }
+}

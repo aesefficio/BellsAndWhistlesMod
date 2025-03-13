@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "misc",
+  "pattern": [
+    "#I#"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:ingots/copper"
+    },
+    "I": {
+      "tag": "c:nuggets/copper"
+    }
+  },
+  "result":{"id": "bellsandwhistles:copper_door_step",
+    "count": 8
+  }
+}

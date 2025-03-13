@@ -1,0 +1,19 @@
+{
+  "type":"minecraft:crafting_shaped",
+  
+  "group": "pilots",
+  "pattern": [
+    " I ",
+    "# #",
+    "III"
+  ],
+  "key":{
+    "#":{
+      "item":"create:andesite_alloy"
+    },
+    "I":{
+      "item":"andesite"
+    }
+  },
+  "result":{"id":"bellsandwhistles:andesite_pilot"}
+}

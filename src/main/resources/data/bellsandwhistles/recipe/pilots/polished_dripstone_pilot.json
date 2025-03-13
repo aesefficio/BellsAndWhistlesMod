@@ -1,0 +1,19 @@
+{
+  "type":"minecraft:crafting_shaped",
+  
+  "group": "stone_pilots",
+  "pattern": [
+    " I ",
+    "# #",
+    "#I#"
+  ],
+  "key":{
+    "#":{
+      "item":"create:polished_cut_dripstone"
+    },
+    "I":{
+      "item":"create:polished_cut_dripstone_stairs"
+    }
+  },
+  "result":{"id":"bellsandwhistles:polished_dripstone_pilot"}
+}
