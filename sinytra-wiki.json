@@ -1,11 +1,11 @@
 {
   "schema": "1",
-  "id": "create_interiors",
+  "id": "bellsandwhistles",
   "platforms": {
-    "curseforge": "create-interiors",
-    "modrinth": "create-interiors"
+    "curseforge": "bellsandwhistles",
+    "modrinth": "bellsandwhistles"
   },
-  "modid": "create_interiors",
+  "modid": "bellsandwhistles",
   "owners": [
     "a0ax",
     "aes efficio"
