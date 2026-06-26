@@ -1,0 +1,13 @@
+{
+  "schema": "1",
+  "id": "create_interiors",
+  "platforms": {
+    "curseforge": "create-interiors",
+    "modrinth": "create-interiors"
+  },
+  "modid": "create_interiors",
+  "owners": [
+    "a0ax",
+    "aes efficio"
+  ]
+}
